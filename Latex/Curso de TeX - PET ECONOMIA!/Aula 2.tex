@@ -1,0 +1,245 @@
+\documentclass[a4paper, 12pt]{article} %Tipo de documento.
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} %Pacote para Margens
+\usepackage[utf8]{inputenc} % Pacote para permitir a utilização de acentos.
+\usepackage{amsmath, amsfonts, amssymb, dsfont} % % Pacote matemático
+\usepackage{graphicx} % Pacote inserir imagens.
+\usepackage[portuguese]{babel} % Pacote para usar diversos idiomas
+\usepackage{float} %Para inserir textos nas imagens
+\usepackage{tikz} % Pacote para gráficos Tikz
+\usepackage{tabu} %Pacote para tabular
+\usetikzlibrary{arrows} % Pacote para o Tikz
+\usepackage{setspace} %Pacote para espaçamento entre linhas
+\usepackage{cases} % Para definir ordens ao modelo matemático
+\usepackage[normalem]{ulem} % Pacote para usar o uuline (texto sublinhado)
+\usepackage{multirow} % Pacote para criação de Tabular.
+\title{Aula 02} %Inserir Título
+\author{Felipe Ferreira e Victor Gabriel} %Inserir autor
+
+
+
+\begin{document} %Inicio do ambiente do documento.
+\maketitle %Inserir título pré-definido no preâmbulo.
+
+
+\begin{flushleft} %Começar um texto pela esquerda.
+\textbf{Introdução ao modo Matemático} %Texto em negrito
+\end{flushleft} %Finalizar o ambiente que iniciou no begin.
+
+
+ 	\paragraph{}O Tex tem uma forma padrão de se incluir componentes matemáticos. Num parágrafo, o componente matemático é incluido pela seguinte maneira. $\backslash$( e $\backslash$) ou $\backslash$begin$\lbrace$math$\rbrace$ e $\backslash$end$\lbrace$math$\rbrace$. % Parágrafo. 
+ 
+ 		\subparagraph{} Sendo $a$ e $b$ os catetos e $c$ a hipotenusa de um triângulo retângulo, então: $ c^{2} = a^{2} + b^{2} $ %Componente matemático quando houver $$, por exemplo $a$. Para inserir a potência é fazer "c^2".
+ 
+			\paragraph{} As fórmulas matemáticas maiores ou as equações t em uma melhor apresentação em linhas separadas do texto, para isso escreve-se o texto matemático entre $\backslash$ e [$\backslash$] ou entre $\backslash$begin$\lbrace$displaymath$\rbrace$ e $\backslash$end$\lbrace$displaymath$\rbrace$. Isto produz fórmulas sem número de equação. %Utilização do parágrafo.
+
+				\subparagraph{} Sendo $a$ e $b$ os catetos, e $c$ a hipotenusa de um triângulo retângulo, então \begin{displaymath} c = \sqrt{a^{2} + b^{2}}\end{displaymath} %Utilização do sub-parágrafo.
+
+				\paragraph{} Com $\backslash$label e $\backslash$ref pode-se fazer referência a uma equação dentro do corpo do texto. % Parágrafo.
+\\
+\begin{equation}\label{eq:eps} %Iniciando uma equação. O comando label é pra se referir ao arquivo.
+\epsilon > 0                   %comando de seta para informar que é maior do que 0.
+\end{equation} % Final do ambiente de equação.
+De (\ref{eq:eps}) se deduz\ldots  %Código referente a colocar refêrencias na sua equação e o \ldots é sobre inserir três pontos. 
+
+\paragraph{} Existem diferenças entre o modo matemático e o modo texto. Por exemplo, no modo matemático. % Parágrafo. 
+
+\begin{flushleft} %Começar um texto pela esquerda.
+\textbf{Agrupando no modo matemático:} %Texto em negrito
+\end{flushleft} %Finalizar o ambiente que iniciou no begin.
+
+\paragraph{} No modo matemático a maioria das instruções só afeta o carater seguinte. Se desejar que uma instrução influa sobre vários caracteres, então deve agrupá-los usando chaves. ($\lbrace$...$\rbrace$) % Parágrafo.
+
+\subparagraph{} %Sub-parágrafo.
+\begin{equation} %Inicio de equação.
+a^x+y \neq a^{x+y} % Equação. Simbolo \neq é referente a indiferença.
+\end{equation} % Final da equação.
+
+\begin{flushleft} 
+\textbf{Elementos das fórmulas matemáticas:}
+\end{flushleft}
+
+\paragraph{} Nesta seção são descritas as instruções mais importantes que se utilizam nas fórmulas matemáticas. % Sub-parágrafo.
+
+\subparagraph{As letras gregas minúsculas:}se introduzem como $\backslash$alpha, $\backslash$beta, $\backslash$gamma... e as maiúsculas se introduzen como $\backslash$Gamma, $\backslash$Delta... %Exemplos de utilização de alguns comandos.
+
+\subparagraph{}
+\begin{equation}
+\lambda, \xi, \pi, \phi, \omega
+\end{equation}
+
+\begin{equation}
+\Lambda, \Xi, \Pi, \Phi, \Omega
+\end{equation}
+
+\subparagraph{Os expoentes e os subíndices.} 
+\begin{equation}
+a {1} \qquad x^{2} \qquad
+e^{-\alpha t} \qquad a^{3} {ij}\\
+e^{x^2} \neq {e^x}^2
+\end{equation}
+
+\subparagraph{O sinal de raiz quadrada }se introduz com $\backslash$sqrt, e a raiz n-ésima com $\backslash$sqrt[n].
+
+\begin{equation}
+\sqrt{x} \qquad
+\sqrt{x^{2}+\sqrt{y}} \qquad
+\sqrt[3]{2}
+\end{equation}
+
+\subparagraph{} Existem funções matemáticas (seno, coseno, tangente, logarítimo...) que se apresentam com letra arredondada. Para essas funções Tex proporciona as seguintes instruções:
+
+\subparagraph{}
+
+\[ \lim {n \rightarrow 0}
+\frac{\sin x}{x}=1\]
+
+\subparagraph{} Uma fração se faz com o comando $\backslash$frac$\lbrace$numerador$\rbrace$ $\lbrace$denominador$\rbrace$. Para as funções simples às vezes é preferível utilizar o comando $\backslash$. 
+\\
+\begin{center}
+$\frac{1}{2}$~horas
+\end{center}
+\begin{displaymath}
+\frac{x^{2}}{k+1} \qquad
+x^{\frac{2}{k+1}} \qquad x^{1/2}
+\end{displaymath}
+
+\subparagraph{} Os coeficientes dos binômios e estruturas similares se podem criar com os comandos $\lbrace$... $\backslash$choose ...$\rbrace$ ou $\lbrace$...$\backslash$atop...$\rbrace$. Com o segundo comando conseguese o mesmo, apenas sem os parênteses.
+
+\begin{displaymath} % Utilização do display matemático para realização de formulas.
+{n \choose k}\qquad {x \atop y+2}
+\end{displaymath}
+
+\subparagraph{} O sinal de integral se obtém com $\backslash$int e o sinal de somatório com $\backslash$sum.
+
+\begin{displaymath}  % Utilização do display matemático para realização de formulas.
+\sum {i=1}^{n} \qquad  % Código da Somatória.
+\int {0}^{\frac{\pi}{2}} \qquad % Código da Integral.
+\end{displaymath}
+
+\begin{flushleft} 
+\textbf{Matrizes} % Texto em negrito.
+\end{flushleft}
+
+\paragraph{} Para compôr matrizes e similares existe no TEX o ambiente array. Este funciona de modo similar ao ambiente tabular. Usa-se o comando para mudar de coluna e para dividir as linas se utiliza a instrução $\backslash$ $\backslash$.
+
+\begin{displaymath}
+\mathbf{X}= % Deixando o nosso caracter matemático.  em negrito.
+\left( \begin{array}{cccc}   % \left deixando o nosso caracter na esquerda. \begin{array} iniciando a matriz. {cccc} Definir colunas.
+x_{11} & x_{12} & x_{13} & x_{14}\\ % Inserinndo os números da matriz. O Símbolo & é para inserir um espaço entre as linhas.
+x {21} & x {22} & x{23} & x {24}\\ % o código \\ é para pularmos de linha.
+x {31} & x {32} & x {33} & x {34}\\
+x {41} & x {42} & x {43} & x {44}\\
+\end{array}\right)
+\end{displaymath}
+
+\subparagraph{} Também se pode usar o ambiente array para compor expressões de funções que tenham definições distintas em intervalos separados. Isto se faz utilizando “.” como delimitador invisível direito, ou seja, $\backslash$right..
+
+\begin{displaymath}
+y=\left\{ \begin{array}{ll}
+a & \textrm{se $d>c$}\\
+b+x & \textrm{5}\\
+1 & \textrm{qualquer outro valor}
+\end{array}\right.
+\end{displaymath}
+
+\subparagraph{} Para formar sistemas de equações.
+
+\begin{eqnarray}
+f(x) & = & \cos x \\
+f’(x) & = & -\sin x \\
+\int {0}^{x} f(y)dy & = & \sin x
+\end{eqnarray}
+
+\begin{flushleft}
+\textbf{Tamanho do tipo para equações:}
+\end{flushleft}
+
+\paragraph{} No modo matemático TEX seleciona o tamanho do tipo segundo o contexto. Os períndices, por exemplo, se dispõem num tipo mais pequeno. Portanto, deve-se usar $\backslash$mathrm para que se mantenha ativo o mecanismo de troca do tamanho. Porém, cautela, já que $\backslash$mathrm só funcionará bem
+com coisas pequenas. 
+
+\begin{equation}
+2^\textrm{o} \qquad 2^\mathrm{o}
+\end{equation}
+
+\begin{flushleft}
+\textbf{Descrevendo variáveis:}
+\end{flushleft}
+
+\paragraph{} Para algumas das suas equações podesse desejar anexar uma seção onde sejam descritas as variáveis utilizadas. O seguinte exemplo poderá ser de ajuda para essa operação:
+
+\begin{displaymath}
+a^2+b^2=c^2
+\end{displaymath}
+
+{\settowidth{\parindent}{onde:\ } \makebox[3pt][r]
+{onde:\ }$a$, $b$ são os adjuntos do ângulo reto de um triângulo retângulo. $c$ é a hipotenusa do triângulo}
+
+\begin{flushleft}
+\textbf{Teorema, leis...}
+\end{flushleft}
+
+\paragraph{} Quando s˜ao escritos documentos matemáticos, s˜ao empregados lemas, definições, axiomas e estruturas similares. 
+
+\newtheorem{mur} {Lei de Murphy}[section]
+\begin{mur} Se alguma coisa pode dar errado, dará.
+\end{mur}
+
+\begin{flushleft}
+\textbf{Outros exemplos de fórmulas matemáticas:}
+\end{flushleft}
+
+\subparagraph{}
+\begin{displaymath}
+{F}(x,y)=0\quad\mathrm{and}
+\quad \left| \begin{array}{ccc}
+F {xx}´´ & F {xy}´´ & F {x}´ \\
+F {yx}´ & F {yy}´ & F {y}´ \\
+F {x}´ & F {y}´ & 0
+\end{array} \right| = 0
+\end{displaymath}
+
+\subparagraph{} 
+
+\[ \left(\begin{array}{cc}
+1 & 2 \\ 0 & 1
+\end{array}\right)
+\left(\begin{array}{cc}
+2 & 0 \\ 1 & 3
+\end{array}\right)
+=
+\left(\begin{array}{cc}
+4 & 6 \\ 1 & 3
+\end{array}\right) \]
+
+\begin{flushleft}
+\textbf{O comando includegraphics:}
+\end{flushleft}
+
+\paragraph{}
+O Tex  traz o pacote graphicx para a inserção de imagens no formato EPS. Isto pode ser feito com o comando $\backslash$includegraphics cuja sintaxe é:
+
+
+\subparagraph{}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=5cm]{LogoUFT.png}
+\end{center}
+\caption{Logo da UFT}\label{fig:02}
+\end{figure}
+
+
+\subparagraph{}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=10cm]{Gráfico Aula 2.png}
+\end{center}
+\caption{Gráfico}\label{fig:02}
+\end{figure}
+
+
+
+
+\end{document}
+
+
+

@@ -1,0 +1,2115 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{tabu}
+\usetikzlibrary{arrows}
+
+
+\begin{document}
+
+	% Capa
+\pagestyle{plain}
+\thispagestyle{empty}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{UFTCapa.jpg}
+\end{figure}
+
+\begin{center}
+	\textbf{UNIVERSIDADE FEDERAL DO TOCANTINS}\\[5pt]
+	CÂMPUS DE PALMAS\\[5pt]
+	CURSO DE GRADUAÇÃO EM CIÊNCIAS ECONÔMICAS\\[95pt]
+	FELIPE FERREIRA DE SOUSA\\[3pt]
+	PABLO KAIQUE SILVEIRA MORAIS\\[3pt]
+	GABRIELLE DIAS MIRANDA SANTOS\\[3pt]
+	VICTOR GABRIEL CALDAS DELGADO\\[170pt]
+	LISTA 1 - MICROECONOMIA\\[140pt]
+	Palmas/TO\\[5pt]
+	2019\\
+\end{center}
+
+\begin{enumerate}
+	%1
+	\item A ciência econômica é a responsável pelo estudo dos diversos fenômenos e abordagens dentro da sociedade no que diz respeito aos recursos escassos. Por sua vez, a escassez se trata da característica intrínseca dos recursos produtivos, uma vez que não são ilimitados. Visto que as necessidades humanas são s dois conceitos se relacionam pois não haveria qualquer sentido no estudo da ciência econômica caso os recursos fossem inesgotáveis (visto que as necessidades humanas são intermináveis).
+	\\
+
+	%2
+	\item Os fatores de produção são os elementos essenciais para o processo produtivo. Tradicionalmente seus principais grandes grupos são capital, terra e trabalho.
+	\\
+
+	%3
+	\item Os três problemas econômicos fundamentais são o que e quanto, como e para quem produzir. O primeiro refere-se ao direcionamento produtivo principal de qualquer processo de produção, ou seja, deve-se optar por produzir mais bens de capital ou bens de consumo. O segundo relaciona-se com o método utilizado na produção, que deverá ser escolhido tendo em vista a disponibilidade de cada recurso produtivo em cada país.
+	\\
+
+	%4
+	\item Pleno Emprego é a aplicação dos recursos produtivos em seu mais alto nível, principalmente em referência ao emprego da mão-de-obra. É um cenário macroeconômico de uma economia em expansão e não significa necessariamente o desemprego zero, uma vez que uma economia estável pode ter certo nível de desemprego.
+	\\
+
+	%5
+	\item A Fronteira de Possibilidade de Produção é a quantidade máxima de bens e serviços que uma economia pode produzir tendo em vista a disponibilidade de seus recursos produtivos e tecnologia e dada a quantidade de outros bens que produz.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (21.5,0) node(xline)[right] {Manteiga};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Armas};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,10);
+			\coordinate (B) at (20,0);
+
+				% Linhas do gráfico
+			\draw (A) to[out=0,in=90] (B);
+
+				% Os pontos de intersecção com os eixos
+			\draw (0,10) node[text=black, left]{1.000}; % Pro eixo Y
+			\draw (20,0) node[text=black, below]{2.000}; % Pro eixo X
+	\end{tikzpicture}
+	\\
+
+	%6
+	\item A eficiência econômica é um referencial produtivo desejado, onde são atingidos os níveis máximos de produção dos bens que uma economia produz em relação ao restante, como o conceito da Fronteira de Possibilidade de Produção aplicado tendo em vista todos bens e serviços que uma economia produz. Por definição, ao atingir a eficiência econômica, não há a possibilidade de aumentar a produção de um bem X sem prejudicar a produção dos bens e serviços remanescentes.
+	\\
+
+	%7
+	\item Custo de Oportunidade é a quantidade de outros bens ou serviços a que se deve renunciar para obter algo. Refere-se ao processo de escolha dentro da definição de Fronteira de Possibilidade de Produção, dado em situações onde não há a possibilidade de aumentar a produção de um bem sem prejudicar a produção do restante.
+	\\
+
+	%8
+	\item A Lei dos Rendimentos Decrescentes enuncia que o acréscimo de prazer (ou, rendimento) no consumo (ou, produção) sofre um efeito diminutivo a curto prazo à medida que são consumidos (ou, produzidos) novos elementos.
+	\\
+
+	%9
+	\item 
+	\begin{enumerate}
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]\\
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {Consumo};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Capital};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,7);
+			\coordinate (B) at (7,0);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+
+				% Linhas do gráfico
+			\draw (A) node[left, text width=5em, align=right]{$P$} to[out=0,in=95] (B);
+			\draw (C) node[left, text width=5em, align=right, red!40!black]{$P'$} to[out=0,in=95] (D)[red!40!black];\\
+	\end{tikzpicture}
+
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]\\
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {Consumo};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Capital};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,7);
+			\coordinate (B) at (7,0);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+
+				% Linhas do gráfico
+			\draw (A) node[left, text width=5em, align=right, red!40!black]{$P'$} to[out=0,in=95] (B)[red!40!black];
+			\draw (C) node[left, text width=5em, align=right]{$P$} to[out=0,in=95] (D);\\
+		\end{tikzpicture}
+		\newpage
+
+		\item Gráfico:\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {Consumo};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Capital};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,7);
+			\coordinate (B) at (10,0);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+
+				% Linhas do gráfico
+			\draw (A) node[left, text width=5em, align=right]{$P$} to[out=0,in=95] (B);
+			\draw (C) node[left, text width=5em, align=right, red!40!black]{$P'$} to[out=0,in=95] (D)[red!40!black];\\
+		\end{tikzpicture}\\
+	
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]\\
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {Consumo};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Capital};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,7);
+			\coordinate (B) at (10,0);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+
+				% Linhas do gráfico
+			\draw (A) node[left, text width=5em, align=right, blue!40!black]{$A'$} to[out=0,in=95] (B)[blue!40!black];
+			\draw (C) node[left, text width=5em, align=right, green!40!black]{$B'$} to[out=0,in=95] (D)[green!40!black];\\
+		\end{tikzpicture}
+	\end{enumerate}
+	\paragraph{}O país B optou por produzir mais bens de capitais, portanto, produzirá mais bens de consumo que o país A.
+	\\
+
+	%10
+	\item O mercado perfeitamente competitivo consiste na predominância dos princípios empregados em laissez-faire, ou seja, considera-se um grande número de consumidores e produtores envolvidos no mercado de um produto onde não haja barreiras para novos investimentos em sua produção. Logo, como se uma “mão invisível” controlasse o mercado, este responderia ao excesso de demanda ou de oferta rapidamente através do mecanismo de preços. É importante destacar que nenhum produtor possui qualquer tipo de vantagem, além de escolher o que, o quanto e para quem irá produzir. É a base do pensamento econômico liberal.
+	\\
+
+	%11
+	\item O preço de mercado é o valor de troca de um bem, formado pelo encontro entre sua oferta e sua demanda. Possui importante papel na resolução de problemas econômicos pois é através dele que os produtores conseguem escoar a produção no caso de um excesso de oferta ou, naturalmente, solucionar algum caso de excesso de demanda.
+	\\
+
+	%12
+	\item
+	Externalidade é o impacto das ações de uma pessoa no bem-estar de outras que não fizeram parte dessa decisão. As externalidades mexem no equilíbrio de mercado, este passa a agir de modo ineficiente não trazendo o máximo benefício para a sociedade como um todo.
+	\\
+
+	%13
+	\item O que caracteriza um bem público são duas características básicas: ser um bem não disputável (em que não há custo marginal em qualquer nível de produção) e não exclusivo (onde não há mecanismo que torne o bem reservado apenas para um grupo ou parcela). O problema do carona se apresenta no momento em que o bem – ou serviço – público, é acessível para qualquer indivíduo, tornando-o de certa forma banal para alguns, que passam a não revelar sua real disposição a pagar por aquele bem.
+	\\
+
+	%14
+	\item A informação incompleta refere-se à situação onde o agente possui informações a mais que o principal. Diferentemente, a informação assimétrica refere-se ao conteúdo imperfeito da informação a qual o principal possui.
+	\\
+
+	%15
+	\item A problemática da seleção adversa é definida como “pré-contratual”, pois o principal sempre está correndo o risco de selecionar maus agentes. De outra forma, o risco moral se apresenta como um problema “pós-contratual”, uma vez que o agente, em algumas situações, pode tomar decisões que diferem do imposto pelo contrato e que são desconhecidas pelo principal.
+	\\
+
+	%16
+	\item A função do estado na economia trata de eliminar e combater as distorções alocativas (alocação de recursos) e distributivas e de promover a melhoria no padrão de vida da coletividade, de algumas maneiras como:
+	\begin{itemize}
+		\item Atuação na formação de preços, corrigindo externalidades (via impostos e subsídios), tabelamentos, fixação do salário mínimo, preços mínimos, taxa de câmbio e de juros;\\
+
+		\item Fornecimentos de serviços básicos como: iluminação, água, saneamento básico, etc;\\
+
+		\item Fornecimento de bens públicos: bens públicos são bens gerais, fornecidos pelo Estado, que não são vendidos no mercado; fundamentalmente, educação, justiça, segurança;\\
+
+		\item Compra de bens e serviços do setor privado: o governo é, isoladamente, o maior agente do sistema e, portanto, o maior comprador de bens e serviços.\\
+	\end{itemize}
+	\\
+
+	%17
+	\item
+	\begin{enumerate}
+		\item Uma estrutura de mercado pode ser considerada um monopólio a partir da apresentação de suas características principais: apenas uma empresa produtora do bem ou serviço, o qual não possui substituto próximo, além de haver barreiras à entrada de concorrentes neste mercado.\\
+
+		\item É o monopólio na compra de fatores de produção. Por exemplo, a indústria automobilística, na compra de autopeças.\\
+
+		\item É característica atribuída a mercados constituídos de várias empresas de pequenas dimensões, em que há diferenciação – que pode ocorrer em diversos graus – no produto ou serviço. Ocorre por exemplo no mercado dos restaurantes em grandes cidades, onde há vários restaurantes com diferentes preços, tipos de comida, entre outras características que os diferenciem. É importante destacar a existência de poucas ou inexpressivas barreiras à entrada de novas empresas no mercado. \\
+		
+		\item É uma estrutura de mercado que pode ser definida de duas diferentes formas: oligopólio concentrado – em que há pequeno número de empresas no setor – ou competitivo – onde um pequeno número de empresas domina um setor com muitas empresas.\\
+		
+		\item É o oligopólio na compra de fatores de produção. Por exemplo, a Companhia de Metrô, na compra de peças específicas.\\
+		
+		\item É uma organização – que pode ser formal ou informal – de produtores dentro de um setor, que determina a política para todas as empresas do cartel. Responsável pela fixação de preços e pela repartição do mercado entre as empresas. É um exemplo de comportamento cooperativo em um oligopólio.\\
+	\end{enumerate}
+	\\
+
+	%18
+	\item Variáveis endógenas são determinadas mudanças ou choques na economia que tem seu valor estimado a partir de modelos econômicos. Já as variáveis exógenas são as responsáveis pela base da construção dos modelos econômicos, uma vez que seus valores não são afetados pelas outras variáveis do sistema. Um exemplo comum de variável exógena é o imposto cobrado pelo governo sobre algum produto. Variáveis endógenas como a quantidade vendida do produto não alteram o nível do imposto.
+	\\
+
+	%19
+	\item Significa “todo o mais é constante”. É uma condição muito usada para a simplificação de estudos – especialmente em economia – que envolvem grande número de variáveis, como por exemplo, a variação da demanda.
+	\\
+
+	%20
+	\item Demanda é o conceito dado à quantidade de determinado bem ou serviço que os consumidores desejam adquirir, num dado período, dada sua renda, seus gastos e o preço de mercado, diferentemente da função de demanda, um cálculo estatístico utilizado para entender o comportamento da demanda em dado mercado dadas suas variáveis. 
+	\\
+
+	%21
+	\item A variação na quantidade demandada significa uma alteração – dadas todas as variáveis do mercado – na quantidade de um certo produto ou serviço que os consumidores desejam adquirir, prevista pela curva de demanda. Já alteração na demanda expressa a ideia de uma alteração no comportamento dos consumidores quanto a alterações nas variáveis que determinam a quantidade demandada.
+	\\
+	\newpage
+	
+	Variação na quantidade demandada:\\
+	\begin{tikzpicture}[scale=0.8, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,4);
+		\coordinate (B) at (10,0);
+		\coordinate (C) at (2,3.2);
+		\coordinate (D) at (5,2);
+
+			% Linha do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (10,0) node[text=black, below]{10}; % Pro eixo X
+		\draw (0,4) node[text=black, left]{$4,00$}; % Pro eixo Y
+
+			% Linhas tracejadas
+		\draw[black, dashed] (C) -- (2,0); % Pro eixo X
+		\draw[black, dashed] (C) -- (0,3.2); % Pro eixo Y
+		\draw[black, dashed] (D) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (D) -- (0,2); % Pro eixo Y
+		
+			% Escrever os pontos C e D
+		\draw (2,3.2) node[text=black, above]{A};
+		\draw (5,2) node[text=black, above]{B};\\
+	\end{tikzpicture}
+
+	Variação na demanda:\\
+	\\
+	\begin{tikzpicture}[scale=0.8, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,4);
+		\coordinate (B) at (10,0);
+		\coordinate (C) at (0,2);
+		\coordinate (D) at (5,0);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q'^d$};
+	\end{tikzpicture}\\
+	\\
+
+	%22
+	\item
+	\begin{enumerate}
+		\item Bem comum é aquele que possui um comportamento de demanda como o estabelecido pela Lei Geral da Demanda, como por exemplo um automóvel, pois a cada aumento que sofrer, menos pessoas desejarão comprá-lo. Por outro lado, bem de Giffen é o caso de certas exceções no comportamento da demanda. Um exemplo bastante difundido é o de uma comunidade inglesa, no século XVIII, muito pobre, e que consumia basicamente batatas. Dado período houve uma grande queda no preço deste produto, o que levou a um aumento do poder aquisitivo da população, que saturada de batatas, passou a consumir outros alimentos. Em síntese, o efeito caracterizado pela queda no consumo atribuída a uma queda no preço do produto.\\
+
+		\item O efeito renda faz referência ao aumento do poder de compra do indivíduo dada a queda de preços nos bens que ele consome, aumentando assim a quantidade demandada de outros bens. Por outro lado, o efeito substituição faz referência ao aumento na demanda pelo preço relativamente menor que seus concorrentes.\\
+
+		\item Bens complementares são bens consumidos em conjunto, ou seja, possuem um comportamento de demanda semelhante. É o caso, por exemplo, da diminuição no consumo de gasolina dado um grande aumento no preço dos automóveis. Por sua vez, bens substitutos são aqueles que seu consumo substitui o consumo de outro bem, como é o exemplo checado na variação do consumo de Coca-Cola dada uma variação no preço somente do guaraná.\\
+
+		\item Bens normais são aqueles que tem sua demanda aumentada diretamente por um aumento na renda do indivíduo, como é o exemplo da gasolina. Já os bens inferiores são aqueles que tem uma variação negativa em sua demanda dado um aumento na renda, como a carne de segunda, por exemplo.\\
+	\end{enumerate}
+	\\
+
+	%23
+	\item A afirmação é correta, pois um bem somente tem seu comportamento de demanda correspondente à Lei Geral da Demanda caso tenha variações correspondentes dados todos os fatores, como o aumento em seu consumo dado um aumento na renda ou diminuição de preços (aumento do poder aquisitivo do consumidor).
+	\\
+
+	%24
+	\item A afirmação não é verdadeira, pois o bem de Giffen trata-se de um produto que compõe parte essencial do consumo da renda de um indivíduo e sofre uma diminuição em seu preço de forma que o efeito renda atua tão fortemente neste caso que o indivíduo passa a ter condições de manter um consumo com elementos mais variados (situação preferida racionalmente). Já o bem inferior trata-se de bens que tem seu consumo diminuído por qualquer fator que aumente o poder aquisitivo do indivíduo, como seu aumento renda, por exemplo. Dessa forma, todo bem de Giffen é um bem inferior, mas nem todo bem inferior é um bem de Giffen (ou, está susceptível ao fenômeno de Giffen).
+	\\
+
+	%25
+	\item Segundo a Lei da Demanda, “se tudo mais é constante, a quantidade demandada cai quando os preços sobem”.
+	\\
+
+	%26
+	\item A oferta é a quantidade de um bem que os produtores estão dispostos a produzir e vender no mercado. Por sua vez, a função de oferta é a relação de dada entre o preço de mercado e a quantidade que os produtores estão dispostos a produzir e vender. A primeira é um conceito de quantidade de produtos; a segunda, a relação entre a primeira e o preço de mercado do bem analisado.
+	\\
+
+	%27
+	\item A variação na oferta faz referência a um deslocamento na função de oferta através das variáveis de composição da oferta, como o preço do bem, preço dos fatores de produção, preço dos bens substitutos, tecnologia, entre outros. Por sua vez, a variação na quantidade ofertada se refere a uma variação prevista pela curva de oferta quando se altera o preço do bem.\\
+
+	\newpage
+
+	Variação na oferta:\\
+	\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,1);
+		\coordinate (B) at (10,7);
+		\coordinate (C) at (0,4);
+		\coordinate (D) at (10,10);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q'^s$};
+	\end{tikzpicture}\\
+
+	Variação na quantidade ofertada:\\
+	\begin{tikzpicture}[scale=1.2, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (7.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,4) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,3);
+		\coordinate (C) at (2,1);
+		\coordinate (D) at (4,2);
+
+			% Linha do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (2,0) node[text=black, below]{2}; % Pro eixo X
+		\draw (4,0) node[text=black, below]{4}; % Pro eixo X
+		\draw (6,0) node[text=black, below]{6}; % Pro eixo X
+		\draw (0,1) node[text=black, left]{$1,00$}; % Pro eixo Y
+		\draw (0,2) node[text=black, left]{$2,00$}; % Pro eixo Y
+		\draw (0,3) node[text=black, left]{$3,00$}; % Pro eixo Y
+
+			% Linhas tracejadas
+		\draw[black, dashed] (C) |- (2,0); % Pro eixo X
+		\draw[black, dashed] (C) -| (0,1); % Pro eixo Y
+		\draw[black, dashed] (D) |- (4,0); % Pro eixo X
+		\draw[black, dashed] (D) -| (0,2); % Pro eixo Y
+		\draw[black, dashed] (B) |- (6,0); % Pro eixo X
+		\draw[black, dashed] (B) -| (0,3); % Pro eixo Y
+	\end{tikzpicture}\\
+	\\
+
+	%28
+	\item O bem complementar na produção, é semelhante com o da demanda, se ele aumenta o preço, a produção irá aumentar e vice-versa. O substituto, mostra uma tendência curiosa na produção, se o substituto aumentar, a tendência é que o preço para produzir se torne menor.
+	\\
+	\newpage
+
+	%29
+	\item O equilíbrio de mercado trata-se do ponto onde a curva de oferta coincide com a de demanda. É o único ponto em que não há excesso de oferta ou de demanda, dado o preço do bem e a quantidade ofertada pelo mercado.\\
+	\begin{tikzpicture}[scale=0.7, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+		\coordinate (C) at (0,10);
+		\coordinate (D) at (10,0);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (5,0) node[text=black, below]{$P^0$}; % Pro eixo X
+		\draw (0,5) node[text=black, left]{$q^0$}; % Pro eixo Y
+
+			% Ponto de Equilíbrio
+		\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (E) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (E) -- (0,5);\\ % Pro eixo Y
+	\end{tikzpicture}
+	\\
+
+	%30
+	\item
+	\begin{enumerate}
+		\item A curva da demanda se desloca. Pelo mesmo preço o consumidor consegue comprar mais. Porém há um excesso de demanda. Começa-se a se ofertar mais, até que chega-se a um novo equilíbrio.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+			\coordinate (I) at (0,8);
+			\coordinate (J) at (8,0);
+
+				% Linhas do gráfico
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s_0$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d_1$};
+			\draw[important line] (I) -- (J) node[right, text width=5em, above=1pt, align=center] {$q^d_0$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (0,3.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+			\draw (0,2.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E'$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(I) -- (J)}) coordinate (H) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5); % Pro eixo Y
+			\draw[black, dashed] (E) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+
+		\newpage
+
+		\item Com a queda do preço de um dos fatores, o vendedor consegue produzir mais pelo mesmo preço. Isso gera excesso de oferta. Os preços caem e o mercado encontra um novo equilíbrio.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,1);
+			\coordinate (B) at (10,8);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q'^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (0,5) node[text=black, below left]{$P_0$}; % Pro eixo Y
+			\draw (0,3.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (H) circle (.4pt) node[above=0.5]{$E'$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,5); % Pro eixo Y
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+
+		\item Estando o bem com o mesmo preço, com a diminuição do $P_s$ a quantidade do bem diminui. Gera-se excesso de oferta. Diminui os preços e o mercado encontra um novo equilíbrio.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+			\coordinate (I) at (0,8);
+			\coordinate (J) at (8,0);
+
+				% Linhas do gráfico
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s_0$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d_0$};
+			\draw[important line] (I) -- (J) node[right, text width=5em, above=1pt, align=center] {$q^d_1$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (0,3.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+			\draw (0,2.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(I) -- (J)}) coordinate (H) circle (.4pt) node[above=0.5]{$E'$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5); % Pro eixo Y
+			\draw[black, dashed] (E) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+
+		\newpage
+
+		\item Se $P_C$ aumenta, sua quantidade irá diminuir; logo, quantidade do bem em questão também diminui. Pelo mesmo preço a demanda é menor. Gera-se excesso de oferta. Preço e oferta caem, levando a um novo equilíbrio de mercado.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,1);
+			\coordinate (B) at (10,8);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q'^s$};
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (0,5) node[text=black, below left]{$P_1$}; % Pro eixo Y
+			\draw (0,3.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E'$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (H) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,5); % Pro eixo Y
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+
+		\item Se a Renda diminui, com o mesmo preço demanda-se menos. O excesso de oferta atua diminuindo os preços. Se $P_F$ aumenta, com o mesmo preço produz-se menos. Então, o mercado encontra um novo equilíbrio.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,1);
+			\coordinate (B) at (10,8);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+			\coordinate (I) at (0,8);
+			\coordinate (J) at (8,0);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s_1$};
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s_0$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d_0$};
+			\draw[important line] (I) -- (J) node[right, text width=5em, above=1pt, align=center] {$q^d_1$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (0,3.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+			\draw (0,2.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(I) -- (J)}) coordinate (H) circle (.4pt) node[above=0.5]{$E'$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5); % Pro eixo Y
+			\draw[black, dashed] (E) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+
+		\newpage
+		
+		\item Se o preço de um bem complementar aumenta, a demanda deste bem será reduzida, causando também uma redução na demanda do bem em questão, mesmo sem alterar seu preço.\\
+		Já o aumento do preço do bem substituto faz com que a quantidade ofertada seja menor pelo mesmo preço.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+			\coordinate (I) at (0,8);
+			\coordinate (J) at (8,0);
+
+				% Linhas do gráfico
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s_0$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d_0$};
+			\draw[important line] (I) -- (J) node[right, text width=5em, above=1pt, align=center] {$q^d_1$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (0,3.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+			\draw (0,2.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(I) -- (J)}) coordinate (H) circle (.4pt) node[above=0.5]{$E'$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5); % Pro eixo Y
+			\draw[black, dashed] (E) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+		\\
+
+		\item O aumento do preço de um bem substituto na produção causa excesso de demanda e consequente elevação do preço.\\
+		Por sua vez, o aumento da renda amplia o excesso de demanda.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (10,0);
+			\coordinate (F) at (1,0);
+			\coordinate (G) at (10,6);
+			\coordinate (I) at (0,8);
+			\coordinate (J) at (8,0);
+
+				% Linhas do gráfico
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q^s_0$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d_1$};
+			\draw[important line] (I) -- (J) node[right, text width=5em, above=1pt, align=center] {$q^d_0$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (5.2,0) node[text=black, below]{$q_0$}; % Pro eixo X
+			\draw (6.5,0) node[text=black, below]{$q_1$}; % Pro eixo X
+			\draw (0,3.5) node[text=black, left]{$P_1$}; % Pro eixo Y
+			\draw (0,2.5) node[text=black, left]{$P_0$}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E'$};
+			\draw[black] (intersection cs: first line={(F) -- (G)}, second line={(I) -- (J)}) coordinate (H) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (H) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (H) -| (0,3.5); % Pro eixo Y
+			\draw[black, dashed] (E) |- (6.5,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,3.5);\\ % Pro eixo Y
+		\end{tikzpicture}
+	\end{enumerate}
+	\\
+
+	\newpage
+	
+	\item %31
+	Preço máximo: O $P_{max}$ é abaixo do preço de mercado. Com diminuição de P gera-se excesso de demanda. Para não aumentar o preço o governo compra o excedente.\\
+	\begin{tikzpicture}[scale=0.6, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+		\coordinate (C) at (0,10);
+		\coordinate (D) at (10,0);
+		\coordinate (F) at (7.5,2.5);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (10,0) node[text=black, below]{20}; % Pro eixo X
+		\draw (5,0) node[text=black, below]{$q^0$}; % Pro eixo X
+		\draw (7.5,0) node[text=black, below]{$q'$}; % Pro eixo X
+		\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+		\draw (0,5) node[text=black, left]{$P^0$}; % Pro eixo Y
+		\draw (0,2.5) node[text=black, left]{$P_{maximo}$}; % Pro eixo Y
+
+			% Ponto de Equilíbrio
+		\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (E) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (E) -- (0,5); % Pro eixo Y
+		
+			% Linhas do preço máximo
+		\draw[black, dashed] (F) -- (7.5,0); % Pro eixo X
+		\draw[black, dashed] (F) -- (0,2.5); % Pro eixo Y
+	\end{tikzpicture}\\
+
+	Preço mínimo: o $P_{min}$ é acima do preço de mercado. Com o aumento do P diminui-se a quantidade demandada gerando excesso de oferta.\\
+	\begin{tikzpicture}[scale=0.6, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+		\coordinate (C) at (0,10);
+		\coordinate (D) at (10,0);
+		\coordinate (F) at (7.5,7.5);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (10,0) node[text=black, below]{20}; % Pro eixo X
+		\draw (5,0) node[text=black, below]{$q^0$}; % Pro eixo X
+		\draw (7.5,0) node[text=black, below]{$q'$}; % Pro eixo X
+		\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+		\draw (0,5) node[text=black, left]{$P^0$}; % Pro eixo Y
+		\draw (0,7.5) node[text=black, left]{$P_{minimo}$}; % Pro eixo Y
+
+			% Ponto de Equilíbrio
+		\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (E) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (E) -- (0,5); % Pro eixo Y
+		
+			% Linhas do preço máximo
+		\draw[black, dashed] (F) -- (7.5,0); % Pro eixo X
+		\draw[black, dashed] (F) -- (0,7.5); % Pro eixo Y
+	\end{tikzpicture}\\
+	\\
+
+	%32
+	\item Elasticidade, em sentido genérico, é a alteração percentual em uma variável, dada uma variação percentual em outra, \textit{coeteris paribus}.
+	\begin{itemize}
+		\item \textbf{Elasticidade no ponto }(utilizando como exemplo uma variação na demanda):
+		\begin{enumerate}
+			\item Por acréscimos finitos ($\Delta$):
+				$$\mid E_{PP}\mid = \dfrac{P}{q^d} \cdot \dfrac{\Delta q^d}{\Delta P}$$\\
+			
+			\item Por derivada: 
+				$$\mid E_{PP}\mid = \dfrac{P}{q^d} \cdot \dfrac{\partial q^d}{\partial P}$$\\
+		\end{enumerate}
+		
+		\item \textbf{Elasticidade no arco }(utilizando como exemplo uma variação na demanda):
+			$$\mid E_{PP}\mid =  \dfrac{P_0 + P_1}{q_0 + q_1} \cdot \dfrac{\Delta q}{\Delta P}$$\\
+	\end{itemize}
+	\\
+
+	%33
+	\item A elasticidade-preço da demanda é a variação percentual na quantidade demandada, dada uma variação percentual no preço do bem, \textit{ceteris paribus}. Ou seja, mede a sensibilidade, a resposta dos consumidores, quando ocorre uma variação no preço de um bem ou serviço.
+			$$\mid E_{PP}\mid = \dfrac{P}{q^d} \cdot \dfrac{\Delta q^d}{\Delta P} \textrm{, onde }
+				\begin{cases}
+				\textrm{Se } \mid E_{PP}\mid > 1 \textrm{, a demanda é elástica;}\\
+				\textrm{Se } \mid E_{PP}\mid < 1 \textrm{, a demanda é inelástica;}\\
+				\textrm{Se } \mid E_{PP}\mid = 1 \textrm{, a demanda é unitária.}\\
+				\end{cases}$$
+				\\
+
+	%34
+	\item São quatro os fatores que explicam o valor numérico da elasticidade-preço da demanda, a saber: disponibilidade de bens substitutos, essencialidade do bem, importância relativa do bem no orçamento e o horizonte de tempo.
+	\\
+
+	%35
+	\item É a variação percentual na quantidade demandada, dada a variação percentual no preço de outro bem, \textit{coeteris paribus}.\\
+	$$E_{PP}^{xy} = \dfrac{P_y}{q_x} \cdot \dfrac{\Delta q_x}{\Delta P_y} \textrm{, onde }
+		\begin{cases}
+		\textrm{Se } \mid E_{PP}^{xy} > 0 \textrm{, os bens x e y são substitutos ou concorrentes;}\\
+		\textrm{Se } \mid E_{PP}^{xy} < 0 \textrm{, os bens x e y são complementares.}
+		\end{cases}$$
+		\\
+	
+	\item É a variação percentual da quantidade demandada, dada uma variação percentual da renda do consumidor, \textit{coeteris paribus}.\\
+	$$E_{RP} = \dfrac{R}{q} \cdot \dfrac{\Delta q}{\Delta R} \textrm{, onde }
+		\begin{cases}
+		\textrm{Se } E_{RP} > 1 \textrm{, trata-se de um bem superior;}\\
+		\textrm{Se } E_{RP} > 0 \textrm{, trata-se de um bem normal;}\\
+		\textrm{Se } E_{RP} < 0 \textrm{, trata-se de um bem inferior;}\\
+		\textrm{Se } E_{RP} = 0 \textrm{, trata-se de um bem de consumo saciado.}\\
+		\end{cases}$$
+		\\
+	
+	\item Mede a variação percentual da quantidade ofertada, dada uma variação percentual no preço do bem, \textit{coeteris paribus}.\\
+	$$E_{PS} = \dfrac{p}{q^s} \cdot \dfrac{\Delta q^s}{\Delta p} \textrm{, onde }
+	\begin{cases}
+	\textrm{Se } E_{PS} > 1 \textrm{, trata-se de um bem de oferta elástica;}\\
+	\textrm{Se } E_{PS} < 1 \textrm{, trata-se de um bem de oferta inelástica;}\\
+	\textrm{Se } E_{PS} = 1 \textrm{, trata-se de um bem de elasticidade-preço da oferta unitária.}
+	\end{cases}$$
+	\\
+
+	%38
+	\item Os fatores que podem influenciar a elasticidade-preço da oferta: aumento de concorrência, variação no preço de bens comprementares e substitutos.
+	\\
+
+	%39
+	\item A elasticidade-preço da oferta é útil para verificar o quão sensível o fornecimento de um bem apresenta-se diante de uma mudança de preço: quanto maior a elasticidade-preço, os produtores e vendedores mais sensíveis estão às mudanças de preço. Um cenário de elasticidade-preço elevado sugere que quando o preço de um determinado bem sobe, os vendedores irão fornecer uma quantidade bem menor do bem que produzem; quando o preço do mesmo bem cai, os vendedores passarão a ofertar quantidades bastantes superiores do mesmo bem. Se a elasticidade-preço for muito baixa, a situação será exatamente oposta, ou seja, que as mudanças nos preços exercem pouca influência sobre a oferta.
+	\\
+
+	%40
+	\item $AC>BA$, então $|E_{Pd}|>1$\\
+	$AC=BA$, então $|E_{Pd}|=1$\\
+	$AC<BA$, então $|E_{Pd}|<1$\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (-2.75,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,-2.75) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,10);
+		\coordinate (B) at (10,0);
+
+			% Linha do gráfico
+		\draw [important line] (A) -- (B);
+
+			% Os pontos de intersecção com os eixos
+		\draw (5,0) node[text=black, below]{B}; % Pro eixo X
+		\draw (-2,0) node[text=black, below]{E}; % Pro eixo X
+		\draw (0,5) node[text=black, left]{C}; % Pro eixo Y
+		\draw (0,0) node[text=black, below left]{D}; % Origem
+		\draw (5,5) node[text=black, left]{A};
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (5,5) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (5,5) -- (0,5);\\ % Pro eixo Y
+	\end{tikzpicture}
+	\\
+
+	\newpage
+
+	%41
+	\item $E_{Ps}=\dfrac{DB}{DC} \cdot \dfrac{DC}{DB}=1$, portanto, quando a função oferta passa pela origem, a elasticidade-preço é constante.\\[5pt]
+	$E_{Ps}=\dfrac{EB}{DC} \cdot \dfrac{DC}{DB}=\dfrac{EB}{DB}$, logo, a elasticidade-preço da oferta é inconstante quando não parte da origem.\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+		\coordinate (C) at (0,2);
+		\coordinate (D) at (8,10);
+
+			% Linha do gráfico
+		\draw [important line] (A) -- (B);
+		\draw [important line] (C) -- (D);
+
+			% Os pontos de intersecção com os eixos
+		\draw (5,0) node[text=black, below]{E}; % Pro eixo X
+		\draw (10,0) node[text=black, below]{C}; % Pro eixo X
+		\draw (0,5) node[text=black, left]{F}; % Pro eixo Y
+		\draw (0,10) node[text=black, left]{B}; % Pro eixo Y
+		\draw (0,0) node[text=black, below left]{D}; % Origem
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (5,5) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (5,5) -- (0,5);\\ % Pro eixo Y
+	\end{tikzpicture}
+	\\
+
+	%42
+	\item
+		Excedente do consumidor: mede o nível de bem estar do consumidor. É o ganho que ele tem por escolher comprar determinado bem.\\ $$E.C.=\dfrac{B\times h}{2}$$\\
+		\\
+		Excedente do produtor: O que ele recebe por um bem em relação ao que ele poderia ter recebido. Ele teria cobrado um valor $x$.\\ $$E.P.=\dfrac{B\times h}{2} \textrm{ ou } B\times h$$\\
+	\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_x$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Preço};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+		\coordinate (C) at (0,10);
+		\coordinate (D) at (10,0);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+		\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+			% Os pontos de intersecção com os eixos
+		\draw (10,0) node[text=black, below]{20}; % Pro eixo X
+		\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+		\draw (5,0) node[text=black, below]{$P^0$}; % Pro eixo X
+		\draw (0,5) node[text=black, left]{$q^0$}; % Pro eixo Y
+
+			% Ponto de Equilíbrio
+		\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+			% Linhas do ponto de equilíbrio
+		\draw[black, dashed] (E) -- (5,0); % Pro eixo X
+		\draw[black, dashed] (E) -- (0,5); % Pro eixo Y
+		
+			% Sombrear as áreas
+		\filldraw[fill=green!20!white] (0,5) -- (5,5) -- (0,10) -- cycle;
+		\filldraw[fill=blue!20!white] (0,0) -- (5,5) -- (0,5) -- cycle;
+		
+			% Escrever nas áreas
+		\draw (1.5,6.25) node[text=black, align=center]{E.C.};
+		\draw (1.5,3.75) node[text=black, align=center]{E.P.};\\
+	\end{tikzpicture}
+
+	\item %43
+	\begin{enumerate}
+		\item \\
+		\begin{tikzpicture}[scale=0.3, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (21.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,-2.5) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,-2);
+			\coordinate (B) at (20,3);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (20,0);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (16,0) node[text=black, below]{16}; % Pro eixo X
+			\draw (8,0) node[text=black, below]{8}; % Pro eixo X
+			\draw (20,0) node[text=black, below]{20}; % Pro eixo X
+			\draw (0,2) node[text=black, left]{2}; % Pro eixo Y
+			\draw (0,-2) node[text=black, left]{-2}; % Pro eixo Y
+			\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+
+				% Ponto de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (16,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,2);\\ % Pro eixo Y
+		\end{tikzpicture}
+		\\
+
+		\item $|0,25|$, logo, a demanda é inelástica.
+		\\
+
+		\item 
+		Excedente do consumidor: $\dfrac{16\times 8}{2}=64$\\
+		Excedente do Produtor: $\left( \dfrac{8\times 2}{2}\right)+8\times 2=24$\\
+		Excedente Total: $64+24=88$\\
+		\\
+		\begin{tikzpicture}[scale=0.3, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (21.5,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,-2.5) -- (0,11.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,-2);
+			\coordinate (B) at (20,3);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (20,0);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (16,0) node[text=black, below]{16}; % Pro eixo X
+			\draw (8,0) node[text=black, below]{8}; % Pro eixo X
+			\draw (20,0) node[text=black, below]{20}; % Pro eixo X
+			\draw (0,2) node[text=black, left]{2}; % Pro eixo Y
+			\draw (0,-2) node[text=black, left]{-2}; % Pro eixo Y
+			\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+
+				% Ponto de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (16,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,2); % Pro eixo Y
+
+				% Sombrear a área
+			\filldraw[fill=green!20!white] (0,2) -- (0,10) -- (16,2) -- cycle;
+			\filldraw[fill=blue!20!white] (0,2) -- (0,-2) -- (16,2) -- cycle;
+
+				% Escrever na área
+			\draw (6,4) node[text=black, align=center]{E.P.};
+			\draw (4,0) node[text=black, align=center]{E.P.};\\
+		\end{tikzpicture}
+		
+		\item
+		\begin{itemize}
+			\item a') \\
+			\begin{tikzpicture}[scale=0.3, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}] % Excedente do consumidor
+
+					% Eixos (axis)
+				\draw[axis] (0,0)  -- (21.5,0) node(xline)[right] {$Q_x$};
+				\draw[axis] (0,-2) -- (0,11.5) node(yline)[above] {Preço};
+			
+					% Declaração dos pontos
+				\coordinate (A) at (0,-5/3);
+				\coordinate (B) at (20,5);
+				\coordinate (C) at (0,10);
+				\coordinate (D) at (20,0);
+
+					% Linhas do gráfico
+				\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+				\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+					% Os pontos de intersecção com os eixos
+				\draw (20,0) node[text=black, below]{20}; % Pro eixo X
+				\draw (14,0) node[text=black, below]{14}; % Pro eixo X
+				\draw (5,0) node[text=black, below]{5}; % Pro eixo X
+				\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+				\draw (0,3) node[text=black, left]{3}; % Pro eixo Y
+				\draw (0,-5/3) node[text=black, left]{$- \dfrac{5}{3}$}; % Pro eixo Y
+
+					% Ponto de Equilíbrio
+				\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+					% Linhas do ponto de equilíbrio
+				\draw[black, dashed] (E) |- (16,0); % Pro eixo X
+				\draw[black, dashed] (E) -| (0,2);\\ % Pro eixo Y
+			\end{tikzpicture}
+			
+			\item b') $|E_{Ps}|=\dfrac{2}{16}\times 4=|0,5|$, portanto trata-se de uma oferta inelástica.\\
+			
+			\item c') Excedente do consumidor: $\dfrac{14\times 7}{2}=49$\\
+			Excedente do Produtor: $\left( 5\times 3\right) +\left( \dfrac{9\times 3}{2} \right) =28,5$\\
+			Excedente Total: $49+28,5=77,5$\\
+			\begin{tikzpicture}[scale=0.3, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}] % Excedente do consumidor
+
+					% Eixos (axis)
+				\draw[axis] (0,0)  -- (21.5,0) node(xline)[right] {$Q_x$};
+				\draw[axis] (0,-2) -- (0,11.5) node(yline)[above] {Preço};
+			
+					% Declaração dos pontos
+				\coordinate (A) at (0,-5/3);
+				\coordinate (B) at (20,5);
+				\coordinate (C) at (0,10);
+				\coordinate (D) at (20,0);
+
+					% Linhas do gráfico
+				\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+				\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+					% Os pontos de intersecção com os eixos
+				\draw (20,0) node[text=black, below]{20}; % Pro eixo X
+				\draw (14,0) node[text=black, below]{14}; % Pro eixo X
+				\draw (5,0) node[text=black, below]{5}; % Pro eixo X
+				\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+				\draw (0,3) node[text=black, left]{3}; % Pro eixo Y
+				\draw (0,-5/3) node[text=black, left]{$- \dfrac{5}{3}$}; % Pro eixo Y
+
+					% Ponto de Equilíbrio
+				\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+					% Linhas do ponto de equilíbrio
+				\draw[black, dashed] (E) |- (16,0); % Pro eixo X
+				\draw[black, dashed] (E) -| (0,2); % Pro eixo Y
+
+					% Sombrear a área
+				\filldraw[fill=green!20!white] (0,3) -- (0,10) -- (14,3) -- cycle;
+				\filldraw[fill=blue!20!white] (0,3) -- (0,-5/3) -- (14,3) -- cycle;
+
+					% Escrever na área
+				\draw (5,6) node[text=black, align=center]{E.C.};
+				\draw (3,1) node[text=black, align=center]{E.P.};\\
+			\end{tikzpicture}
+		\end{itemize}
+	\end{enumerate}
+	\\
+
+	%44
+	\item \\
+	\begin{enumerate}
+		\item \\
+		\begin{tikzpicture}[scale=0.02, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (450,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,250) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,6.66);
+			\coordinate (B) at (400,450/3);
+			\coordinate (C) at (0,200);
+			\coordinate (D) at (400,0);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (220,0) node[text=black, below]{220}; % Pro eixo X
+			\draw (400,0) node[text=black, below]{400}; % Pro eixo X
+			\draw (0,6.66) node[text=black, left]{6.66}; % Pro eixo Y
+			\draw (0,90) node[text=black, left]{90}; % Pro eixo Y
+			\draw (0,200) node[text=black, left]{200}; % Pro eixo Y
+
+				% Ponto de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (220,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,90);\\ % Pro eixo Y
+		\end{tikzpicture}
+		
+		\item $E_{Pd}=|0,82|$ (demanda inelástica) e $E_{Ps}=1,22$, (oferta elástica).\\
+		
+		\item
+		Excedente do consumidor: $E.C.=\dfrac{220\times 110}{2}=12.100$\\
+		Excedente do Produtor: $E.P.=\dfrac{73,34\times 220}{2}=8.067$\\
+		Excedente Total: $12.100+8.067=20.167$\\
+		\\
+		\begin{tikzpicture}[scale=0.02, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (450,0) node(xline)[right] {$Q_x$};
+			\draw[axis] (0,0) -- (0,250) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,6.66);
+			\coordinate (B) at (400,450/3);
+			\coordinate (C) at (0,200);
+			\coordinate (D) at (400,0);
+			\coordinate (E) at (16,2);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (220,0) node[text=black, below]{220}; % Pro eixo X
+			\draw (400,0) node[text=black, below]{400}; % Pro eixo X
+			\draw (0,6.66) node[text=black, left]{6.66}; % Pro eixo Y
+			\draw (0,90) node[text=black, left]{90}; % Pro eixo Y
+			\draw (0,200) node[text=black, left]{200}; % Pro eixo Y
+
+				% Ponto de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) |- (220,0); % Pro eixo X
+			\draw[black, dashed] (E) -| (0,90); % Pro eixo Y
+			
+				% Sombrear as áreas
+			\filldraw[fill=green!20!white] (0,90) -- (0,200) -- (225,87.5) -- cycle;
+			\filldraw[fill=blue!20!white] (0,90) -- (0,6.66) -- (225,87.5) -- cycle;
+
+				% Escrever nas áreas
+			\draw (90,130) node[text=black, align=center]{E.C.};
+			\draw (90,60) node[text=black, align=center]{E.P.};\\
+		\end{tikzpicture}
+		\newpage
+
+		\item
+		\begin{itemize}
+			\item a')\\
+			\begin{tikzpicture}[scale=0.03, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+					% Eixos (axis)
+				\draw[axis] (0,0)  -- (300,0) node(xline)[right] {$Q_x$};
+				\draw[axis] (0,0) -- (0,175) node(yline)[above] {Preço};
+
+					% Declaração dos pontos
+				\coordinate (A) at (0,16.66);
+				\coordinate (B) at (200,85);
+				\coordinate (C) at (0,125);
+				\coordinate (D) at (250,0);
+
+					% Linhas do gráfico
+				\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+				\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+					% Os pontos de intersecção com os eixos
+				\draw (130,0) node[text=black, below]{130}; % Pro eixo X
+				\draw (250,0) node[text=black, below]{250}; % Pro eixo X
+				\draw (0,16.66) node[text=black, left]{16.66}; % Pro eixo Y
+				\draw (0,60) node[text=black, left]{60}; % Pro eixo Y
+				\draw (0,125) node[text=black, left]{125}; % Pro eixo Y
+
+					% Ponto de Equilíbrio
+				\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+					% Linhas do ponto de equilíbrio
+				\draw[black, dashed] (E) -- (130,0); % Pro eixo X
+				\draw[black, dashed] (E) -- (0,60); % Pro eixo Y
+			\end{tikzpicture}\\
+			\\
+			
+			\item b') $E_{Pd}=|0,92|$ e $E_{Ps}=1,38$\\
+			\\
+			
+			\item c')\\
+			Excedente do consumidor: $E.C.=\dfrac{65\times 130}{2}=4.225$\\
+			Excedente do Produtor: $E.P.=\dfrac{43,34\times 130}{2}=2.817$\\
+			Excedente Total: $4.225+2.817=7.042$\\
+			\\
+			\begin{tikzpicture}[scale=0.03, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+					% Eixos (axis)
+				\draw[axis] (0,0)  -- (300,0) node(xline)[right] {$Q_x$};
+				\draw[axis] (0,0) -- (0,175) node(yline)[above] {Preço};
+
+					% Declaração dos pontos
+				\coordinate (A) at (0,16.66);
+				\coordinate (B) at (200,85);
+				\coordinate (C) at (0,125);
+				\coordinate (D) at (250,0);
+
+					% Linhas do gráfico
+				\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+				\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+					% Os pontos de intersecção com os eixos
+				\draw (130,0) node[text=black, below]{130}; % Pro eixo X
+				\draw (250,0) node[text=black, below]{250}; % Pro eixo X
+				\draw (0,16.66) node[text=black, left]{16.66}; % Pro eixo Y
+				\draw (0,60) node[text=black, left]{60}; % Pro eixo Y
+				\draw (0,125) node[text=black, left]{125}; % Pro eixo Y
+
+					% Ponto de Equilíbrio
+				\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[above=0.5]{$E$};
+
+					% Linhas do ponto de equilíbrio
+				\draw[black, dashed] (E) -- (130,0); % Pro eixo X
+				\draw[black, dashed] (E) -- (0,60); % Pro eixo Y
+
+					% Sombrear as áreas
+				\filldraw[fill=green!20!white] (0,60) -- (0,125) -- (130,60) -- cycle;
+				\filldraw[fill=blue!20!white] (0,60) -- (0,16.66) -- (130,60) -- cycle;
+
+					% Escrever nas áreas
+				\draw (30,90) node[text=black, align=center]{E.C.};
+				\draw (20,50) node[text=black, align=center]{E.P.};
+			\end{tikzpicture}\\
+			\\
+		\end{itemize}
+	\end{enumerate}
+	
+	\item %45
+	\begin{enumerate}
+		\item $E_{Pd}=|0,19|$, portanto é uma demanda inelástica.\\
+		
+		\item $E_{Rd}=0,47$, portanto trata-se de um bem inferior.\\
+		
+		\item $E.C.= \dfrac{B\times h}{2}= \dfrac{21\times 10,5}{2}=110,25$\\
+		
+		\item $R_T=2\times 21=42$\\
+		
+		\item
+		\begin{itemize}
+			\item a') $E_{Pd}=|0,31|$, portanto a demanda continua inelástica.\\
+			
+			\item b') $E_{Rd}=0,52$, portanto trata-se de um bem inferior.\\
+			
+			\item c') $E.C.= \dfrac{B\times h}{2}= \dfrac{19\times 9,5}{2}=90,25$\\
+			
+			\item d') $R_T=3\times 19=57$\\
+		\end{itemize}
+	\end{enumerate}
+	
+	\item %46
+	\begin{enumerate}
+		\item $E_{Pd}= \dfrac{P}{q}\cdot \dfrac{\Delta q}{\Delta P}= \dfrac{15}{20}\times(-2)= \dfrac{-10}{20}=|0,5|$, portanto trata-se de uma demanda inelástica.\\
+		
+		\item $E_{P_Zd}=\dfrac{10}{20}\times (-1)=|0,5|$, portanto trata-se de uma demanda inelástica.\\
+
+		\item $E.C._X=\dfrac{20\times 10}{2}=\dfrac{200}{2}=100$\\
+			$E.C._Z=\dfrac{20\times 5}{2}=\dfrac{100}{2}=50$\\
+		
+		\item $R_TX=5\times 20=100$\\
+			$R_TZ=10\times 20=200$\\
+
+		\item
+			\begin{itemize}
+				\item a') $Q_x^d=10$\\
+
+				\item b') $E_{Pd}=|-2|$\\
+
+				\item c') $E.C.=25$\\
+
+				\item d') $R_TX=10\times 10=100$\\
+			\end{itemize}
+	\end{enumerate}
+	
+	\item %47
+	\begin{enumerate}
+		\item $5\textrm{ e }200$\\
+
+		\item $5,5\textrm{ e }180$\\
+
+		\item $5,5$\\
+
+		\item $P_r=5,5-0,9=4,6$\\
+
+		\item $R_G=0,9\times 180=162$\\
+
+		\item $R_C=0,5\times 180=90$\\
+
+		\item $I_C=0,4\times 180=72$\\
+
+		\item $I_V=0,1\times 180=18$\\
+
+		\item \\
+		\begin{tikzpicture}[scale=0.25, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (45,0) node(xline)[right] {$\dfrac{Q_x}{10^1}$};
+			\draw[axis] (0,0) -- (0,12.5) node(yline)[above] {Preço};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,1);
+			\coordinate (B) at (25,6);
+			\coordinate (C) at (0,10);
+			\coordinate (D) at (40,0);
+			\coordinate (F) at (0,1.5);
+			\coordinate (G) at (25,6.9);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em] {$q^s$};
+			\draw[important line] (F) -- (G) node[right, text width=5em] {$q'^s$};
+			\draw[important line] (C) -- (D) node[right, text width=5em, above=1pt, align=center] {$q^d$};
+
+				% Os pontos de intersecção com os eixos
+			\draw (18,0) node[text=black, below left]{180}; % Pro eixo X
+			\draw (20,0) node[text=black, below right]{200}; % Pro eixo X
+			\draw (40,0) node[text=black, below]{400}; % Pro eixo X
+			\draw (0,1) node[text=black, below left]{1}; % Pro eixo Y
+			\draw (0,1.5) node[text=black, left]{1,5}; % Pro eixo Y
+			\draw (0,5) node[text=black, below left=0.25]{5}; % Pro eixo Y
+			\draw (0,5.5) node[text=black, above left=0.25]{5,5}; % Pro eixo Y
+			\draw (0,10) node[text=black, left]{10}; % Pro eixo Y
+
+				% Pontos de Equilíbrio
+			\draw[black] (intersection cs: first line={(A) -- (B)}, second line={(C) -- (D)}) coordinate (E) circle (.4pt) node[below right=0.5]{$E$};
+			\draw[black] (intersection cs: first line={(C) -- (D)}, second line={(F) -- (G)}) coordinate (H) circle (.4pt) node[above=0.5]{$E'$};
+
+				% Linhas do ponto de equilíbrio
+			\draw[black, dashed] (E) -- (20,0); % Pro eixo X
+			\draw[black, dashed] (E) -- (0,5); % Pro eixo Y
+			\draw[black, dashed] (H) -- (18,0); % Pro eixo X
+			\draw[black, dashed] (H) -- (0,5.5); % Pro eixo Y
+		\end{tikzpicture}\\
+	\end{enumerate}
+
+	%48
+	\item O valor da perda de bem estar para o consumidor é de 4 reais.
+	\\
+
+	%49
+	\item O valor da perda de bem estar para o produtor é de 4,50 reais.
+	\\
+
+	\item %50
+	\begin{enumerate}
+		\item $E.C.=\dfrac{10\times 5}{2}=25$\\
+		
+		\item $E.C.=\dfrac{16\times 8}{2}=64$\\
+		
+		\item $E.C.=\dfrac{6\times 3}{2}=9$\\
+		
+		\item $\Delta E.C.=9-64=(-55)$\\
+		
+		\item $\Delta E.C.=25-9=16$\\
+		
+		\item $\Delta E.C.=4$\\
+		
+		\item $\Delta E.C.=8$\\
+		
+	\end{enumerate}
+	
+	\item %51
+	\begin{enumerate}
+		\item $E.P.=\dfrac{120}{2}\cdot (12)=720$\\
+
+		\item $E.P.=\dfrac{16\times 8}{2}=64$\\
+		
+		\item $E.P.=\dfrac{6\times 3}{2}=9$\\
+		
+		\item $\Delta E.P.=19-64=(-55)$\\
+
+		\item $\Delta E.P.=9-25=(-16)$\\
+
+		\item $\Delta E.P.=\dfrac{39\times 390}{2}=7.605$\\
+
+		\item $\Delta E.P.=\dfrac{31\times 270}{2}=4.185$\\
+	\end{enumerate}
+
+	%52
+	\item A cesta de consumo são as preferencias dos consumidores, conforme os seus gostos, rendas e interesse. 
+	\\
+
+	%53
+	\item
+	Função de utilidade (total): trata-se de uma curva saindo do ponto de origem do plano, em que não há qualquer consumo do bem, e consequentemente, nenhuma satisfação. A inclinação da função é inicialmente positiva e gradualmente reduzida, proporcionalmente à quantidade consumida do bem. No caso de haver saturação máxima (ponto de máximo da função e continuidade no consumo, a sua inclinação passa a ser negativa.
+	\\
+	
+	Função de utilidade marginal: trata-se de uma função que representa a satisfação adicional (na margem) obtida pelo consumo de mais uma unidade do bem. É decrescente pois, segundo a Lei da Utilidade Marginal Decrescente, o consumidor vai saturando-se do bem ao consumi-lo.
+	\\
+
+	\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {$U_{mg}$};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,10);
+		\coordinate (B) at (10,0);
+
+			% Linhas do gráfico
+		\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center] {};\\
+	\end{tikzpicture}
+	\\
+
+	\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+			% Eixos (axis)
+		\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+		\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {$U_T$};
+
+			% Declaração dos pontos
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (10,10);
+
+			% Linhas do gráfico
+		\draw (A) node[left, text width=5em, align=right]{} to[out=80,in=190](B);\\
+	\end{tikzpicture}
+	\\
+
+	\newpage
+	
+	\item %54
+	\begin{enumerate}
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {$y$};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,5);
+			\coordinate (B) at (10,5);
+			\coordinate (C) at (0,0);
+			\coordinate (D) at (10,10);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center]{};
+			\draw (C) -- (D);\\
+		\end{tikzpicture}
+
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {$y$};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,0);
+			\coordinate (B) at (10,6);
+			\coordinate (C) at (0,0);
+			\coordinate (D) at (6.5,10);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center]{};
+			\draw (C) node[left, text width=5em, align=right]{} to[out=15,in=260] (D);\\
+		\end{tikzpicture}
+		
+		\item Gráfico: \\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {$y$};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,10);
+			\coordinate (B) at (10,0);
+			\coordinate (C) at (0,0);
+			\coordinate (D) at (10,10);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center]{};
+			\draw (C) node[left, text width=5em, align=right]{} to[out=80,in=195] (D);\\
+		\end{tikzpicture}
+
+		\newpage
+		
+		\item Gráfico:\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]
+	
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {$Q_{consumido}$};
+			\draw[axis, <-] (0,1.5) node(yline)[above] {$y$} -- (0,-11.5);
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,0);
+			\coordinate (B) at (10,-10);
+			\coordinate (C) at (0,0);
+			\coordinate (D) at (6.5,-10);
+
+				% Linhas do gráfico
+			\draw[important line] (A) -- (B) node[right, text width=5em, above=1pt, align=center]{};
+			\draw (C) node[left, text width=5em, align=right]{} to[out=-10,in=100] (D);\\
+		\end{tikzpicture}
+	\end{enumerate}
+	\\
+
+	%55
+	\item Utilidade Marginal é a satisfação adicional (na margem) obtida pelo consumo de mais uma unidade do bem. É decrescente pois o consumidor vai saturando-se desse bem, quanto mais ele o consome.
+	$$U_{mg} = \dfrac{\Delta U_t}{\Delta q}$$
+	\\
+
+	%56
+	\item \\
+	\begin{enumerate}
+		\item A tabela \ref{tbl56-1} refere-se à utilidade marginal do bem 1:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $100$ & $100$\\ \hline
+				$2$ & $195$ & $95$\\ \hline
+				$3$ & $283$ & $88$\\ \hline
+				$4$ & $363$ & $80$\\ \hline
+				$5$ & $433$ & $70$\\ \hline
+				$6$ & $492$ & $59$\\ \hline
+				$7$ & $539$ & $47$\\ \hline
+				$8$ & $569$ & $30$\\ \hline
+				$9$ & $584$ & $15$\\ \hline
+				$10$ & $587$ & $3$\\ \hline
+			\end{tabular}
+			\caption{bem 1}
+			\label{tbl56-1}
+		\end{table}
+
+		\newpage
+
+		\item A tabela \ref{tbl56-2} refere-se à utilidade marginal do bem 2:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $6,6$ & $6,6$\\ \hline
+				$2$ & $13$ & $6,4$\\ \hline
+				$3$ & $19,2$ & $6,2$\\ \hline
+				$4$ & $25,1$ & $5,9$\\ \hline
+				$5$ & $30,6$ & $5,5$\\ \hline
+				$6$ & $35,7$ & $5,1$\\ \hline
+				$7$ & $40,2$ & $4,5$\\ \hline
+				$8$ & $43,8$ & $3,6$\\ \hline
+				$9$ & $46,3$ & $2,5$\\ \hline
+				$10$ & $47,4$ & $1,1$\\ \hline
+			\end{tabular}
+			\caption{bem 2}
+			\label{tbl56-2}
+		\end{table}
+	\end{enumerate}
+	\\
+
+	%57
+	\item
+	\begin{enumerate}
+		\item Tabela 1:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $10$ & $10$\\ \hline
+				$2$ & $14,14$ & $4,14$\\ \hline
+				$3$ & $17,32$ & $3,18$\\ \hline
+				$4$ & $20$ & $2,68$\\ \hline
+				$5$ & $22,36$ & $2,36$\\ \hline
+				$6$ & $24,49$ & $2,13$\\ \hline
+				$7$ & $26,45$ & $1,96$\\ \hline
+				$8$ & $28,28$ & $1,83$\\ \hline
+				$9$ & $30$ & $1,72$\\ \hline
+				$10$ & $31,62$ & $1,62$\\ \hline
+			\end{tabular}
+		\end{table}
+		
+		\item Tabela 2:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $1$ & $1$\\ \hline
+				$2$ & $4$ & $3$\\ \hline
+				$3$ & $9$ & $5$\\ \hline
+				$4$ & $16$ & $7$\\ \hline
+				$5$ & $25$ & $9$\\ \hline
+				$6$ & $36$ & $11$\\ \hline
+				$7$ & $49$ & $13$\\ \hline
+				$8$ & $64$ & $15$\\ \hline
+				$9$ & $81$ & $17$\\ \hline
+				$10$ & $100$ & $19$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		\newpage
+		
+		\item Tabela 3:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $60$ & $60$\\ \hline
+				$2$ & $84,85$ & $24,85$\\ \hline
+				$3$ & $103,92$ & $19,07$\\ \hline
+				$4$ & $120$ & $16,08$\\ \hline
+				$5$ & $134,16$ & $14,16$\\ \hline
+				$6$ & $146,96$ & $15,8$\\ \hline
+				$7$ & $158,74$ & $11,78$\\ \hline
+				$8$ & $169,7$ & $10,96$\\ \hline
+				$9$ & $180$ & $10,3$\\ \hline
+				$10$ & $189,73$ & $9,73$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		
+		\item Tabela 4:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $0$ & $0$\\ \hline
+				$2$ & $0,69$ & $0,69$\\ \hline
+				$3$ & $1,09$ & $0,4$\\ \hline
+				$4$ & $1,38$ & $0,29$\\ \hline
+				$5$ & $1,6$ & $0,22$\\ \hline
+				$6$ & $1,79$ & $0,19$\\ \hline
+				$7$ & $1,94$ & $0,15$\\ \hline
+				$8$ & $2,07$ & $0,13$\\ \hline
+				$9$ & $2,19$ & $0,12$\\ \hline
+				$10$ & $2,3$ & $0,11$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		
+		\item Tabela 5:
+		\begin{table}[H]
+		\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $100$ & $-$\\ \hline
+				$1$ & $110$ & $10$\\ \hline
+				$2$ & $110$ & $10$\\ \hline
+				$3$ & $130$ & $10$\\ \hline
+				$4$ & $140$ & $10$\\ \hline
+				$5$ & $150$ & $10$\\ \hline
+				$6$ & $160$ & $10$\\ \hline
+				$7$ & $170$ & $10$\\ \hline
+				$8$ & $180$ & $10$\\ \hline
+				$9$ & $190$ & $10$\\ \hline
+				$10$ & $200$ & $10$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		\newpage
+		
+		\item Tabela 6:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $1$ & $1$\\ \hline
+				$2$ & $0,25$ & $-0,75$\\ \hline
+				$3$ & $0,11$ & $-0,14$\\ \hline
+				$4$ & $0,0625$ & $-0,0475$\\ \hline
+				$5$ & $0,04$ & $-0,0225$\\ \hline
+				$6$ & $0,0277$ & $-0,0123$\\ \hline
+				$7$ & $0,0204$ & $-0,0073$\\ \hline
+				$8$ & $0,0156$ & $-0,0048$\\ \hline
+				$9$ & $0,0123$ & $-0,033$\\ \hline
+				$10$ & $0,01$ & $-0,023$\\ \hline
+			\end{tabular}
+		\end{table}\\
+	\end{enumerate}
+	\\
+
+	%58
+	\item 
+	\\
+
+	\item %59
+	\begin{enumerate}
+		\item 
+		\begin{enumerate}
+		\item Tabela do bem 1:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $20$ & $20$\\ \hline
+				$2$ & $39$ & $19$\\ \hline
+				$3$ & $56$ & $17$\\ \hline
+				$4$ & $70$ & $14$\\ \hline
+				$5$ & $80$ & $10$\\ \hline
+				$6$ & $85$ & $5$\\ \hline
+			\end{tabular}
+		\end{table}
+		
+		\item Tabela do bem 2:
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Quantidade & Utilidade total & Utilidade marginal \\ \hline
+				$0$ & $0$ & $-$\\ \hline
+				$1$ & $24$ & $24$\\ \hline
+				$2$ & $47$ & $23$\\ \hline
+				$3$ & $68$ & $21$\\ \hline
+				$4$ & $86$ & $18$\\ \hline
+				$5$ & $100$ & $14$\\ \hline
+				$6$ & $109$ & $9$\\ \hline
+				\end{tabular}
+			\end{table}
+		\end{enumerate}
+		
+		\item O consumidor irá consumir 3 unidades do bem 2 e duas unidades do bem 1. Por causa do princípio da igualdade marginal.\\
+		
+		\item O consumidor irá consumir 3 unidades do bem 2 e 4 do bem 1.\\
+	\end{enumerate}
+
+	\newpage
+	
+	\item %60
+	\begin{enumerate}
+		\item
+		\begin{itemize}
+			\item Tabela referente ao bem 1:
+			\begin{table}[H]
+				\centering
+				\begin{tabular}{|c|c|c|}
+					\hline
+					Quantidade & Utilidade total & Utilidade marginal \\ \hline
+					$0$ & $0$ & $-$\\ \hline
+					$1$ & $100$ & $100$\\ \hline
+					$2$ & $141,42$ & $41,42$\\ \hline
+					$3$ & $173,2$ & $31,78$\\ \hline
+					$4$ & $200$ & $26,8$\\ \hline
+					$5$ & $223,6$ & $23,6$\\ \hline
+					$6$ & $244,95$ & $21,35$\\ \hline
+					$7$ & $264,57$ & $19,62$\\ \hline
+					$8$ & $282,84$ & $18,27$\\ \hline
+					$9$ & $300$ & $17,16$\\ \hline
+					$10$ & $316,23$ & $16,23$\\ \hline
+				\end{tabular}
+			\end{table}\\
+
+			\item Tabela referente ao bem 2:
+			\begin{table}[H]
+				\centering
+				\begin{tabular}{|c|c|c|}
+					\hline
+					Quantidade & Utilidade total & Utilidade marginal \\ \hline
+					$0$ & $0$ & $-$\\ \hline
+					$1$ & $110$ & $110$\\ \hline
+					$2$ & $155,26$ & $45,26$\\ \hline
+					$3$ & $190,52$ & $35,26$\\ \hline
+					$4$ & $220$ & $29,48$\\ \hline
+					$5$ & $245,96$ & $25,96$\\ \hline
+					$6$ & $269,44$ & $23,48$\\ \hline
+					$7$ & $291,03$ & $21,59$\\ \hline
+					$8$ & $311,12$ & $20,09$\\ \hline
+					$9$ & $330$ & $18,88$\\ \hline
+					$10$ & $347,85$ & $17,85$\\ \hline
+				\end{tabular}
+		\end{table}\\
+		\end{itemize}
+		
+		\item Serão cinco quantidades do bem 1 e cinco do bem 2.\\
+		
+		\item Serão quatro unidades do bem 1 e duas do bem 2.\\
+	\end{enumerate}
+	\\
+
+	%61
+	\item A partir do princípio do equilíbrio do consumidor é possível ver que na medida em que o consumidor consome um determinado bem e os níveis de utilidade caem, esse consumidor passa a consumir outros bens que proporcionam uma maior utilidade. Sendo assim é possível concluir que isso leva os consumidores a ter uma menor disposição para pagar altos preços para consumir grandes quantidades. E alguns fatores que levam a curva de demanda ser negativamente inclinada, como o nível de renda dos consumidores.
+	\\
+
+	%62
+	\item É bem diferente essa comparação entre a função da utilidade e da demanda, inclinadas, pois a tendência do preço menor é que a quantidade irá aumentar ao conforme o preço é menor. Já a utilidade é medida pela utilidade que irá propor ao consumidor, por isso essas funções tem características bem diferentes.
+	\\
+
+	\newpage
+
+	%63
+	\item
+	\begin{enumerate}
+		\item $U'_{(x_1)} = \dfrac{5}{\sqrt{x}}$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $5$\\ \hline
+				$2$ & $3,53$\\ \hline
+				$3$ & $2,88$\\ \hline
+				$4$ & $2,5$\\ \hline
+				$5$ & $2,23$\\ \hline
+				$6$ & $2,04$\\ \hline
+				$7$ & $1,89$\\ \hline
+				$8$ & $1,76$\\ \hline
+				$9$ & $1,6$\\ \hline
+				$10$ & $1,58$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		
+		\item $U'_{(x_1)} = 2x$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $2$\\ \hline
+				$2$ & $4$\\ \hline
+				$3$ & $6$\\ \hline
+				$4$ & $8$\\ \hline
+				$5$ & $10$\\ \hline
+				$6$ & $12$\\ \hline
+				$7$ & $14$\\ \hline
+				$8$ & $16$\\ \hline
+				$9$ & $18$\\ \hline
+				$10$ & $20$\\ \hline
+			\end{tabular}
+		\end{table}\\
+	
+		\item $U'_{(x_1)} = \dfrac{20}{3 \sqrt[3]{x^2}}$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $6,6$\\ \hline
+				$2$ & $4,19$\\ \hline
+				$3$ & $3,2$\\ \hline
+				$4$ & $2,64$\\ \hline
+				$5$ & $2,27$\\ \hline
+				$6$ & $2,02$\\ \hline
+				$7$ & $1,82$\\ \hline
+				$8$ & $1,6$\\ \hline
+				$9$ & $1,54$\\ \hline
+				$10$ & $1,43$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		\newpage
+		
+		\item $U'_{(x_1)} = \dfrac{1}{x}$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $1$\\ \hline
+				$2$ & $0,5$\\ \hline
+				$3$ & $0,33$\\ \hline
+				$4$ & $0,25$\\ \hline
+				$5$ & $0,2$\\ \hline
+				$6$ & $0,16$\\ \hline
+				$7$ & $0,14$\\ \hline
+				$8$ & $0,12$\\ \hline
+				$9$ & $0,11$\\ \hline
+				$10$ & $0,1$\\ \hline
+			\end{tabular}
+		\end{table}\\
+	
+		\item $U'_{(x_1)} = 10$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $10$\\ \hline
+				$2$ & $10$\\ \hline
+				$3$ & $10$\\ \hline
+				$4$ & $10$\\ \hline
+				$5$ & $10$\\ \hline
+				$6$ & $10$\\ \hline
+				$7$ & $10$\\ \hline
+				$8$ & $10$\\ \hline
+				$9$ & $10$\\ \hline
+				$10$ & $10$\\ \hline
+			\end{tabular}
+		\end{table}\\
+	
+		\item $U'_{(x_1)} = - \dfrac{2}{x^3}$\\
+		\begin{table}[H]
+			\begin{tabular}{|c|c|}
+				\hline
+				Quantidade & Utilidade marginal \\ \hline
+				$0$ & $-$\\ \hline
+				$1$ & $-2$\\ \hline
+				$2$ & $-0,25$\\ \hline
+				$3$ & $-,074$\\ \hline
+				$4$ & $-0,031$\\ \hline
+				$5$ & $-0,016$\\ \hline
+				$6$ & $-0,009$\\ \hline
+				$7$ & $-0,0058$\\ \hline
+				$8$ & $-0,0039$\\ \hline
+				$9$ & $-0,0027$\\ \hline
+				$10$ & $-0,002$\\ \hline
+			\end{tabular}
+		\end{table}\\
+		\paragraph{}A questão 56 obedece a Lei dos Rendimentos Decrescentes, o que significa que a cada acréscimo na quantidade a Utilidade Marginal $(U_{mg})$ diminui. O mesmo pode ser observado nos itens A, C, D e F da questão 57; por sua vez, nos itens B e E, entretanto, o mesmo não pode ser observado, já que as mesmas não obedecem a Lei dos Rendimentos Decrescentes. A cada acréscimo na quantidade a $U_{mg}$ do item B cresce, enquanto do item E se mantém constante.\\
+	\end{enumerate}
+	\\
+
+	%64
+	\\ \item
+	\begin{enumerate}
+		\item É a relação técnica entre a quantidade física de fatores de produção e a quantidade física do produto em determinado período de tempo, a função da produção é relacionada com a eficiência econômica, pois, tende-se a mostrar que todo os níveis de produção foram atingidos.\\
+		
+		\item A função de produção variável é aquela que permanecem inalterados, quando a produção varia. A função de produção fixa se altera com a variação da quantidade produzida. São exemplos de fatores fixos o capital físico e as instalações da empresa, e de fatores variáveis a mão-de-obra e as matérias-primas utilizadas.\\
+		
+		\item Curto prazo como o período no qual existe pelo menos um fator de produção fixo. E o longo prazo, todos os fatores variam.\\
+		
+		\item Produtividade média, é a relação entre o nível do produto e a quantidade do fator de produção, em determinado período de tempo.\\
+		
+		\item Se a produção aumenta pela mesma mudança proporcional que todos os insumos mudam, então há retornos constantes de escala.\\
+		
+		\item Custos contábeis são os custos operacionais de uma empresa, de uma forma que toma conta de tudo no quesito operacional. O custo econômico é o custo de oportunidade.\\
+		
+		\item Custo Variável Total (CVT): parcela do custo que varia, quando a produção varia. E a parcela dos custos da empresa que depende da quantidade produzida. Custo Fixo Total (CFT): parcela do custo que se mantém fixa, quando a produção varia, ou seja, são os gastos com fatores fixos de produção.\\
+
+		\item Economia de escala é aquela que organiza o processo produtivo de maneira que se alcance a máxima utilização dos fatores produtivos envolvidos no processo, procurando como resultado baixos custos de produção e o incremento de bens e serviços. Ela ocorre quando a expansão da capacidade de produção de uma empresa ou indústria proboca um aumento na quantidade total produzida sem um aumento proporcional no custo de produção. Como resultado, o custo médio do produto tende a ser menor com o aumento da produção. Já a deseconomia de escala é o processo inverso ao da economia de escala. Ela acontece quando o custo com os fatores de produção crescem mais do que a produção resultante desse investimento, resultando em um aumento no custo médio por unidade produzida.\\
+
+		\item A receita total é o montante total de produção x demanda. A receita média é a receita por unidade de produto vendida, ou receita unitária.\\
+
+		\item Lucro contábil é onde se consideram apenas custos contábeis. Por sua vez, lucro econômico é o lucro vindo do custo de oportunidade.\\
+
+		\item Lucro normal é o custo de oportunidade (implícito) do capital;\\
+	\end{enumerate}
+
+	% 65
+	\item Segundo a Lei dos Rendimentos decrescentes, \textit{coeteris paribus}, o produto marginal de um fator de produção reduzirá conforme o aumento da quantidade utilizada desse fator.
+	\\
+
+	% 66
+	\item Ponto A: Estágio inicial\\
+		Ponto B: Estágio em que a Lei dos Rendimentos Decrescentes é verificada.\\
+		\\
+		\begin{tikzpicture}[scale=0.5, axis/.style={very thick, ->, >=stealth'}, important line/.style={thick}, dashed line/.style={dashed, thin}, pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten >=2pt}, every node/.style={color=black}]\\
+
+				% Eixos (axis)
+			\draw[axis] (0,0)  -- (11.5,0) node(xline)[right] {Consumo};
+			\draw[axis] (0,0) -- (0,11.5) node(yline)[above] {Capital};
+
+				% Declaração dos pontos
+			\coordinate (A) at (0,0);
+			\coordinate (B) at (10,10);
+			\coordinate (C) at (1.075,3);
+			\coordinate (D) at (6,8.6);
+
+				% Linhas do gráfico
+			\draw (A) node[left, text width=5em, align=right]{$P$} to[out=75,in=190] (B);
+			\draw (C) node[below]{A};
+			\draw (D) node[below]{B};
+			\fill [black] (C) circle (1pt);
+			\fill [blackl] (D) circle (1pt);\\
+	\end{tikzpicture}
+	
+	\item Tabela:
+	\begin{table}[H]
+		\centering
+		\resizebox{1.0\textwidth}{!}{%
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Fator de Produção Capital $(K)$ & Fator de Produção Trabalho $(L)$ & Produto Total $(Y)$ & Produto Médio do Trabalho $(P_{me}L)$ & Relação Capital Trabalho $\left(\dfrac{K}{L}\right)$\\ \hline
+			$5$ & $0$ & $0$ & $0$ & $0$\\ \hline
+			$5$ & $1$ & $8$ & $1,6$ & $5$\\ \hline
+			$5$ & $2$ & $23$ & $4,6$ & $2,5$\\ \hline
+			$5$ & $3$ & $43$ & $8,6$ & $1,6$\\ \hline
+			$5$ & $4$ & $66$ & $13,2$ & $1,25$\\ \hline
+			$5$ & $5$ & $90$ & $18$ & $1$\\ \hline
+			$5$ & $6$ & $113$ & $22,6$ & $0,83$\\ \hline
+			$5$ & $7$ & $133$ & $26,6$ & $0,71$\\ \hline
+			$5$ & $8$ & $148$ & $29,6$ & $0,625$\\ \hline
+			$5$ & $9$ & $156$ & $31,2$ & $0,55$\\ \hline
+			$5$ & $10$ & $155$ & $31$ & $0,5$\\ \hline
+		\end{tabular}%
+		}
+	\end{table}
+	\\
+
+	%68
+	\item Tabela:
+	\begin{table}[H]
+		\centering
+		\resizebox{1.0\textwidth}{!}{%
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Fator de Produção Capital $(K)$ & Fator de Produção Trabalho $(L)$ & Produto Total $(Y)$ & Produto Médio do Trabalho $(P_{me}L)$ & Relação Capital Trabalho $\left(\dfrac{K}{L}\right)$\\ \hline
+			$10$ & $0$ & $0$ & $0$ & $0$\\ \hline
+			$10$ & $1$ & $34,81$ & $3,481$ & $10$\\ \hline
+			$10$ & $2$ & $69,62$ & $6,962$ & $5$\\ \hline
+			$10$ & $3$ & $73,9$ & $7,39$ & $3,33$\\ \hline
+			$10$ & $4$ & $91,6$ & $9,16$ & $2,5$\\ \hline
+			$10$ & $5$ & $107,5$ & $10,75$ & $2$\\ \hline
+			$10$ & $6$ & $121,6$ & $12,16$ & $1,66$\\ \hline
+			$10$ & $7$ & $133,9$ & $13,39$ & $1,42$\\ \hline
+			$10$ & $8$ & $144,4$ & $14,44$ & $1,25$\\ \hline
+			$10$ & $9$ & $153,1$ & $15,31$ & $1,11$\\ \hline
+			$10$ & $10$ & $160$ & $16$ & $1$\\ \hline
+		\end{tabular}%
+		}
+	\end{table}
+	\\
+
+	%69
+	\item Sim, pois a Lei dos Rendimentos decrescentes é baseada na questão de diminuição de custos de uma empresa. Se a Lei de Retornos Crescentes estiver em seu pleno funcionamento, ela ajudaria a gerar um retorno a empresa, deixando esses custos ainda menores.
+	\\
+
+	%70
+	\item Tabela:
+	\begin{table}[H]
+		\centering
+		\resizebox{1.0\textwidth}{!}{%
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			Nível de Produto & Custo Fixo & Custo Variável & Custo Total & Custo Médio & Custo Variável Médio & Custo Fixo Médio & Custo Marginal\\ \hline
+			$0$ & $50$ & $0$ & $50$ & $0$ & $0$ & $0$ & $0$\\ \hline
+			$1$ & $50$ & $23,75$ & $73,75$ & $73,75$ & $23,75$ & $50$ & $23,75$\\ \hline
+			$2$ & $50$ & $42,75$ & $92,75$ & $46,37$ & $21,37$ & $25$ & $19$\\ \hline
+			$3$ & $50$ & $58,5$ & $108,5$ & $36,16$ & $19,5$ & $16,66$ & $15,75$\\ \hline
+			$4$ & $50$ & $72,5$ & $122,5$ & $30,62$ & $18,12$ & $12,5$ & $14$\\ \hline
+			$5$ & $50$ & $86,25$ & $136,25$ & $27,25$ & $17,25$ & $10$ & $13,75$\\ \hline
+			$6$ & $50$ & $101,25$ & $151,25$ & $25,2$ & $16,87$ & $8,33$ & $15$\\ \hline
+			$7$ & $50$ & $119$ & $169$ & $24,14$ & $17$ & $7,14$ & $15$\\ \hline
+			$8$ & $50$ & $141$ & $191$ & $23,87$ & $17,62$ & $17,62$ & $22$\\ \hline
+			$9$ & $50$ & $168,75$ & $218,75$ & $24,3$ & $18,75$ & $7$ & $27,75$\\ \hline
+			$10$ & $50$ & $203,75$ & $253,75$ & $25,37$ & $20,37$ & $5$ & $35$\\ \hline
+		\end{tabular}%
+		}
+	\end{table}\\
+	\\
+
+	%71
+	\item Tabela:
+	\begin{table}[H]
+		\centering
+		\resizebox{1.0\textwidth}{!}{%
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			Nível de Produto & Custo Fixo & Custo Variável & Custo Total & Custo Médio & Custo Variável Médio & Custo Fixo Médio & Custo Marginal\\ \hline
+			$0$ & $23$ & $0$ & $23$ & $0$ & $0$ & $0$ & $0$\\ \hline
+			$1$ & $23$ & $11,5$ & $34,5$ & $34,5$ & $11,5$ & $23$ & $11,5$\\ \hline
+			$2$ & $23$ & $19,2$ & $42,2$ & $21,1$ & $9,6$ & $11,5$ & $7,7$\\ \hline
+			$3$ & $23$ & $24,9$ & $47,9$ & $15,4$ & $8,3$ & $7,66$ & $5,7$\\ \hline
+			$4$ & $23$ & $30,4$ & $53,4$ & $13,35$ & $7,6$ & $5,75$ & $5,5$\\ \hline
+			$5$ & $23$ & $37,5$ & $60,5$ & $12,1$ & $7,5$ & $4,6$ & $7,1$\\ \hline
+			$6$ & $23$ & $48$ & $71$ & $11,33$ & $8$ & $3,83$ & $10,5$\\ \hline
+			$7$ & $23$ & $63,7$ & $86,7$ & $9,1$ & $9,1$ & $3,28$ & $15,7$\\ \hline
+			$8$ & $23$ & $86,4$ & $109,4$ & $13,6$ & $10,8$ & $2,87$ & $23,7$\\ \hline
+			$9$ & $23$ & $117,9$ & $140,9$ & $15,65$ & $13,1$ & $2,55$ & $31,5$\\ \hline
+			$10$ & $23$ & $160$ & $183$ & $18,3$ & $16$ & $2,3$ & $42,1$\\ \hline
+		\end{tabular}%
+		}
+	\end{table}\\
+	\\
+	
+	%72
+	\item É possível pois o lucro contábil é operacional, leva em consideração apenas as receitas e despesas. O lucro econômico, além disso, leva em consideração o custo de oportunidade. É possível ter receita acima das despesas (lucro contábil) e ao mesmo tempo lucro econômico nulo, dado que o custo de oportunidade pode indicar que o lucro poderia ter sido duas vezes maior. Dessa maneira, seu custo de oportunidade é exatamente igual a seu lucro contábil, gerando o lucro econômico nulo.\\
+\end{enumerate}
+\end{document}

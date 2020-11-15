@@ -1,0 +1,154 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb, dsfont}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{tabu}
+\usetikzlibrary{arrows}
+\usepackage{setspace}
+\usepackage{cases}
+\usepackage[normalem]{ulem}
+\usepackage{multirow}
+\title{Aula1}
+\author{Felipe Ferreira e Victor Gabriel Caldas}
+
+\begin{document}
+\maketitle
+
+
+
+\begin{flushleft}
+
+O que é o \textbf{$\backslash$documentclass?}
+\\
+Isso indica que tipo de documento pretende-se criar. \singlespacing
+
+O que são os \textbf{pacotes?} 
+\\
+Os pacotes geralmente são formas de se implementar os textos, seja, incluindo gráficos, figuras, formatos, etc. Escrevemos os pacotes que desejamos no inicio do texto como \textbf{$\backslash$usepackage} e o pacote que desejar. \singlespacing
+
+A necessidade de se usar \textbf{$\backslash$begin(document)}.
+\\
+Para se iniciar qualquer texto no Tex é necessário primeiro usar o \textbf{$\backslash$begin(document)} e quando terminar todo o trabalho, coloca-se o \textbf{$\backslash$end(document)} \singlespacing
+
+O pacote \textbf{Geometry}
+\\
+É um pacote que trabalha com os tamanhos e as margens, áreas do texto, etc.
+\\
+Ex: $\backslash$usepackage(geometry), em seguida você conforme as suas regras e gostos, como por exemplo, neste texto. \singlespacing
+
+\textbf{Parágrafos justificados:}
+\\
+O modo de compor os parágrafos depende da classe do documento. Formas de inserir um novo salto de linha podem ser pelo comando \textbf{$\backslash$newline}. \singlespacing
+
+\textbf{Aspas:}
+\\
+Para as aspas não deve-se usar o caracter de aspas que usa-se nas máquinas de escrever. \singlespacing
+
+\textbf{Traços:}
+\newline
+Para ter acesso a três destes se usa uma quantidade diferente de traços consecutivos. O quarto tipo é o sinal matemático ‘menos’: \singlespacing
+
+\textbf{Acentos e caracteres especiais:}
+\\
+O permite o uso de acentos e caracteres especiais de numerosos idiomas. O Tex mostra todos os tipos de acentos que s˜ao aplicáveis á letra. Naturalmente, funciona com outras letras.
+\\
+Ex: i e $\i$ ou j e $\j$. \singlespacing
+
+\textbf{Facilidades para linguagem internacional:}
+\\
+Se precisar escrever documentos em outros idiomas distintos do inglês, Tex deve utilizar outras regras de hifienização para produzir um resultado correto. Para muitos idiomas, essas mudanças se podem levar a cabo utilizando o pacote \textbf{babel} de Johannes L. Braams. 
+\\
+Além disso, com o pacote babel são redefinidos os títulos que produzem algumas instruções de LATEX, que normalmente são em inglês. Por exemplo, ao introduzir o comando \textbf{$\backslash$tableofcontents} aparecerá, se for usada a opção em português, como resultado final conteúdo. \singlespacing
+
+\textbf{Espaçamentos:}
+\\
+Se desejar usar espaçamentos maiores entre linhas, pode mudar seu valor colocando o comando. O comando é \textbf{$\backslash$linespread(fator)} \singlespacing
+
+\textbf{Espaçamentos horizontais:}
+\\
+O Tex determina automaticamente os espaços entre palavras e frases. Para produzir outros tipos de espaçamentos horizontais use o código \textbf{$\backslash$hspace(comprimento)}. \singlespacing
+
+\textbf{Espaçamentos verticais especiais:}
+\\
+O Tex determina de modo automático os espa¸cos entre dois parágrafos, itens, subitens... Em casos especiais se podem forçar separações adicionais entre dois parágrafos com o comando. O código que se é usado para esta função é \textbf{$\backslash$vspace(comprimento)}.
+\\
+Este comando deverá ser indicado sempre entre duas linhas vazias. Quando esta separação se deva introduzir, ainda que seja no início ou no final de uma página, ent˜ao em vez de \textbf{$\backslash$vspace} se deve utilizar \textbf{vspace*}. \singlespacing
+
+\textbf{Títulos, capítulos e itens:}
+\\
+Para casos em como de Artigos, podemos algumas ferramentas de nomeações de títulos, como por exemplo \textbf{$\backslash$section}, \textbf{$\backslash$subsection} e \textbf{$\backslash$subsubsection}. \singlespacing
+
+\textbf{Tipos de letras e tamanhos:}
+\\
+Em alguns casos poderíamos mudar diretamente os tipos e os tamanhos. Para mudar os tamanhos e tipos de fontes podem ser usadas as instruções. Por exemplo, códigos como o \textbf{$\backslash$small} ou \textbf{$\backslash$Large}. \singlespacing
+
+\textbf{Palavras grifadas:}
+\\
+Nos escritos a máquina, para ressaltar determinados segmentos de texto estes se sublinham. Nos livros impressos estas palavras se ressaltam ou se destacam. O comando com o qual se muda para o tipo de letra enfatizado é \textbf{$\backslash$emph(texto)}. \singlespacing
+
+\textbf{Texto sublinhado:}
+\\
+Já para se realizar textos sublinhados utilizamos o seguinte código: \textbf{$\backslash$uline}, \textbf{$\backslash$uuline}, \textbf{$\backslash$uwave}, etc... \singlespacing
+
+\textbf{Ambientes:}
+\\
+Para compor textos com algum propósito especial Latex define muitos tipos de ambientes para todas as classes de designs. Os ambientes s˜ao “grupos” ou “agrupamentos”. \singlespacing
+
+\textbf{Listas e descrições (itemize, enumerate, description):}
+\\
+O ambiente itemize é adequado para as listas simples, o ambiente enumerate para relações numeradas e o ambiente description para descrições.
+\\
+\begin{enumerate}
+\item Pode-se combinar os ambientes de listas a seu gosto:
+\begin{itemize}
+\item Questões para teste 
+\item Cade o teste?
+\end{itemize}
+\item Portanto, lembre:
+\begin{description} 
+\item[O que não é necessário] não resultar adequado porque o coloque numa lista.
+\item[O adequado,] porém, pode ser apresentado agradavelmente numa lista. 
+\end{description}
+\end{enumerate}
+
+\singlespacing
+
+\textbf{Justificações e centrado (flushleft, flushright, center):}
+\\
+Os ambientes \textbf{flushleft} e \textbf{flushright} produzen parágrafos justificados à esquerda e a direita (sem nivelação das bordas). O ambiente \textbf{center} gera texto centrado.  \singlespacing
+
+\textbf{Tabulações (tabular):}
+\\
+O ambiente tabular serve para criar tabulações, com linhas horizontais e verticais segundo desejar. Tex determina a largura das colunas de modo automático. Ex:
+\\
+\begin{center}
+
+\begin{tabular}{|p{5cm}|}
+\hline
+Um parágrafo dentro de um ambiente de tabulação.\\
+\hline
+\end{tabular}
+\singlespacing
+\end{center} 
+
+\begin{center}
+
+\begin{tabular}{|r|l|}
+\hline
+7CD & hexadecimal \\
+3715 & octal \\
+111111001011 & binário \\
+\hline \hline
+1997 & decimal \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\end{flushleft}
+
+\end{document}

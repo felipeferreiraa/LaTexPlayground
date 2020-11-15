@@ -1,0 +1,611 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.15)  22 SEP 2020 03:10
+entering extended mode
+**"./Lista 1.tex"
+("Lista 1.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip49
+\multirow@cntb=\count179
+\multirow@dima=\skip50
+\bigstrutjot=\dimen143
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.t
+ex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen146
+\pgfutil@tempdimb=\dimen147
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-l
+ists.tex))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.de
+f
+\pgfutil@abb=\box45
+ (/home/felipe/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.te
+x
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.
+code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\pgf@xd=\dimen156
+\pgf@yd=\dimen157
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count180
+\c@pgf@countb=\count181
+\c@pgf@countc=\count182
+\c@pgf@countd=\count183
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count184
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.
+def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-
+pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath
+.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count185
+\pgfsyssoftpath@bigbuffer@items=\count186
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol
+.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.te
+x
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.te
+x
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count187
+\pgfmath@box=\box46
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code
+.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basi
+c.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trig
+onometric.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rand
+om.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comp
+arison.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base
+.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.roun
+d.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc
+.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.inte
+gerarithmetics.code.tex)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count188
+)) (/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.c
+ode.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen159
+\pgf@picmaxx=\dimen160
+\pgf@picminy=\dimen161
+\pgf@picmaxy=\dimen162
+\pgf@pathminx=\dimen163
+\pgf@pathmaxx=\dimen164
+\pgf@pathminy=\dimen165
+\pgf@pathmaxy=\dimen166
+\pgf@xx=\dimen167
+\pgf@xy=\dimen168
+\pgf@yx=\dimen169
+\pgf@yy=\dimen170
+\pgf@zx=\dimen171
+\pgf@zy=\dimen172
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcons
+truct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen173
+\pgf@path@lasty=\dimen174
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusag
+e.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen175
+\pgf@shorten@start@additional=\dimen176
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.c
+ode.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count189
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphics
+tate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen177
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfor
+mations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen178
+\pgf@pt@y=\dimen179
+\pgf@pt@temp=\dimen180
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.co
+de.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.
+code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathproc
+essing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.c
+ode.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen181
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.co
+de.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen182
+\pgf@sys@shading@range@num=\count190
+\pgf@shadingcount=\count191
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.co
+de.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal
+.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box50
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.c
+ode.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspar
+ency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns
+.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code
+.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.co
+de.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box51
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code
+.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versio
+n-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen183
+\pgf@nodesepend=\dimen184
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versio
+n-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen185
+\pgffor@skip=\dimen186
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.co
+de.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplotha
+ndlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count192
+\pgfplotmarksize=\dimen187
+)
+\tikz@lastx=\dimen188
+\tikz@lasty=\dimen189
+\tikz@lastxsaved=\dimen190
+\tikz@lastysaved=\dimen191
+\tikz@lastmovetox=\dimen192
+\tikz@lastmovetoy=\dimen193
+\tikzleveldistance=\dimen194
+\tikzsiblingdistance=\dimen195
+\tikz@figbox=\box52
+\tikz@figbox@bg=\box53
+\tikz@tempbox=\box54
+\tikz@tempbox@bg=\box55
+\tikztreelevel=\count193
+\tikznumberofchildren=\count194
+\tikznumberofcurrentchild=\count195
+\tikz@fig@count=\count196
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.co
+de.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count197
+\pgfmatrixcurrentcolumn=\count198
+\pgf@matrix@numberofcolumns=\count199
+)
+\tikz@expandcount=\count266
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen196
+))
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen197
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen198
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip16
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks32
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks33
+\eqnshift@=\dimen199
+\alignsep@=\dimen256
+\tagshift@=\dimen257
+\tagwidth@=\dimen258
+\totwidth@=\dimen259
+\lineht@=\dimen260
+\@envbody=\toks34
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count279
+\l__pdf_internal_box=\box58
+)
+("Lista 1.aux")
+\openout1 = `"Lista 1.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 526.376pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=526.376pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/felipe/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen261
+\scratchbox=\box59
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen262
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks37
+) (/home/felipe/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+(/home/felipe/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+ABD: EveryShipout initializing macros
+
+LaTeX Warning: File `LogoUFT.png' not found on input line 13.
+
+
+! Package pdftex.def Error: File `LogoUFT.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...\includegraphics[width=35px]{LogoUFT.png}}
+                                                   & \multicolumn{4}{|l|}{\t...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[1
+
+{/home/felipe/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+[4] ("Lista 1.aux") ) 
+Here is how much of TeX's memory you used:
+ 13484 strings out of 483132
+ 268921 string characters out of 2957022
+ 483709 words of memory out of 3000000
+ 28587 multiletter control sequences out of 15000+200000
+ 538974 words of font info for 43 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 60i,11n,60p,719b,726s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/felipe/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></home/felipe/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb>
+Output written on "Lista 1.pdf" (4 pages, 76346 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

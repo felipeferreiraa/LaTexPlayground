@@ -1,0 +1,2081 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.5)  15 NOV 2020 08:27
+entering extended mode
+**"./Lista 1 - Microeconomia.tex"
+("Lista 1 - Microeconomia.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/felipe/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen143
+))
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
+\tag@help=\toks20
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
+\andhelp@=\toks21
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2020/09/01 3.48 The Babel package
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/babel/babel.def
+File: babel.def 2020/09/01 3.48 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen154
+\l@babelnohyphens=\language1
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/felipe/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/babel-portuges/portuguese.ldf
+Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Portuguese' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 53.
+
+Package babel Info: Making " an active character on input line 143.
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks24
+\float@box=\box47
+\@float@everytoks=\toks25
+\@floatcapt=\box48
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.t
+ex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen155
+\pgfutil@tempdimb=\dimen156
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-l
+ists.tex))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.de
+f
+\pgfutil@abb=\box49
+ (/home/felipe/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.te
+x
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.
+code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen157
+\pgf@y=\dimen158
+\pgf@xa=\dimen159
+\pgf@ya=\dimen160
+\pgf@xb=\dimen161
+\pgf@yb=\dimen162
+\pgf@xc=\dimen163
+\pgf@yc=\dimen164
+\pgf@xd=\dimen165
+\pgf@yd=\dimen166
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count198
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.
+def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-
+pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath
+.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count199
+\pgfsyssoftpath@bigbuffer@items=\count266
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol
+.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.te
+x
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.te
+x
+\pgfmath@dimen=\dimen167
+\pgfmath@count=\count267
+\pgfmath@box=\box50
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code
+.tex
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basi
+c.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trig
+onometric.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rand
+om.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comp
+arison.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base
+.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.roun
+d.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc
+.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.inte
+gerarithmetics.code.tex)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count268
+)) (/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.c
+ode.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen168
+\pgf@picmaxx=\dimen169
+\pgf@picminy=\dimen170
+\pgf@picmaxy=\dimen171
+\pgf@pathminx=\dimen172
+\pgf@pathmaxx=\dimen173
+\pgf@pathminy=\dimen174
+\pgf@pathmaxy=\dimen175
+\pgf@xx=\dimen176
+\pgf@xy=\dimen177
+\pgf@yx=\dimen178
+\pgf@yy=\dimen179
+\pgf@zx=\dimen180
+\pgf@zy=\dimen181
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcons
+truct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen182
+\pgf@path@lasty=\dimen183
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusag
+e.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen184
+\pgf@shorten@start@additional=\dimen185
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.c
+ode.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count269
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphics
+tate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen186
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfor
+mations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen187
+\pgf@pt@y=\dimen188
+\pgf@pt@temp=\dimen189
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.co
+de.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.
+code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathproc
+essing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.c
+ode.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen190
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.co
+de.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen191
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.co
+de.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal
+.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box54
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.c
+ode.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspar
+ency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns
+.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code
+.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.co
+de.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box55
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code
+.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versio
+n-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versio
+n-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/felipe/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+)) (/home/felipe/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.co
+de.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplotha
+ndlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count272
+\pgfplotmarksize=\dimen196
+)
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikz@lastmovetox=\dimen257
+\tikz@lastmovetoy=\dimen258
+\tikzleveldistance=\dimen259
+\tikzsiblingdistance=\dimen260
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.co
+de.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
+)
+\tikz@expandcount=\count280
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/felipe/.miktex/texmfs/install/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen261
+\ar@mcellbox=\box60
+\extrarowheight=\dimen262
+\NC@list=\toks38
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box61
+)
+(/home/felipe/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box62
+\sift@deathcycles=\count281
+\@vwid@loff=\dimen263
+\@vwid@roff=\dimen264
+)
+\c@taburow=\count282
+\tabu@nbcols=\count283
+\tabu@cnt=\count284
+\tabu@Xcol=\count285
+\tabu@alloc=\count286
+\tabu@nested=\count287
+\tabu@target=\dimen265
+\tabu@spreadtarget=\dimen266
+\tabu@naturalX=\dimen267
+\tabucolX=\dimen268
+\tabu@Xsum=\dimen269
+\extrarowdepth=\dimen270
+\abovetabulinesep=\dimen271
+\belowtabulinesep=\dimen272
+\tabustrutrule=\dimen273
+\tabu@thebody=\toks39
+\tabu@footnotes=\toks40
+\tabu@box=\box63
+\tabu@arstrutbox=\box64
+\tabu@hleads=\box65
+\tabu@vleads=\box66
+\tabu@cellskip=\skip54
+)
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/felipe/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrows
+.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen274
+))
+(/home/felipe/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count288
+\l__pdf_internal_box=\box67
+)
+("Lista 1 - Microeconomia.aux")
+\openout1 = `"Lista 1 - Microeconomia.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/felipe/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count289
+\scratchdimen=\dimen275
+\scratchbox=\box68
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen276
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks42
+) (/home/felipe/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) ABD: EveryShipout initializing macros
+
+LaTeX Warning: File `UFTCapa.jpg' not found on input line 20.
+
+
+! Package pdftex.def Error: File `UFTCapa.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 	\includegraphics[scale=0.6]{UFTCapa.jpg}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+[1
+
+{/home/felipe/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Overfull \hbox (32.04529pt too wide) in paragraph at lines 50--52
+[]\OT1/cmr/m/n/12 Pleno Emprego e a aplicac~ao dos recursos produtivos em seu
+ mais alto nvel, principalmente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Overfull \hbox (6.74834pt too wide) in paragraph at lines 79--81
+\OT1/cmr/m/n/12 Fronteira de Possibilidade de Produc~ao, dado em situac~oes o
+nde n~ao ha a possibilidade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Overfull \hbox (17.44832pt too wide) in paragraph at lines 83--85
+[]\OT1/cmr/m/n/12 A Lei dos Rendimentos Decrescentes enuncia que o acrescimo d
+e prazer (ou, rendimento)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+[2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103
+.
+ (/home/felipe/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103
+.
+
+(/home/felipe/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 126--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+ []
+
+
+Overfull \hbox (4.04556pt too wide) in paragraph at lines 166--168
+\OT1/cmr/m/n/12 empregados em laissez-faire, ou seja, considera-se um grande n
+umero de consumidores
+ []
+
+
+Overfull \hbox (3.184pt too wide) in paragraph at lines 166--168
+\OT1/cmr/m/n/12 novos investimentos em sua produc~ao. Logo, como se uma \m~ao 
+invisvel" controlasse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Overfull \hbox (4.05432pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 Estado, que n~ao s~ao vendidos no mercado; fundamentalmente, ed
+ucac~ao, justica,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+[5]
+Overfull \hbox (11.58165pt too wide) in paragraph at lines 210--211
+[][]\OT1/cmr/m/n/12 E caracterstica atribuda a mercados constitudos de v
+arias empresas de pequenas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Overfull \hbox (6.44781pt too wide) in paragraph at lines 216--217
+\OT1/cmr/m/n/12 um setor, que determina a poltica para todas as empresas do c
+artel. Responsavel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
+
+ []
+
+
+Overfull \hbox (2.66049pt too wide) in paragraph at lines 225--227
+[]\OT1/cmr/m/n/12 Significa \todo o mais e constante". []E uma condic~ao muit
+o usada para a simplificac~ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 268--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+[7]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 322--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--377
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 380--409
+
+ []
+
+[10] [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 607--645
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.685 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 689--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.782 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--792
+
+ []
+
+
+Overfull \hbox (8.41913pt too wide) in paragraph at lines 794--796
+[]\OT1/cmr/m/n/12 S~ao quatro os fatores que explicam o valor numerico da elas
+ticidade-preco da demanda,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
+
+ []
+
+
+Overfull \hbox (26.85379pt too wide) detected at line 803
+\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12  [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
+
+ []
+
+
+Overfull \hbox (85.05536pt too wide) detected at line 822
+\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12  [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 822--824
+
+ []
+
+
+Overfull \hbox (24.08563pt too wide) in paragraph at lines 826--828
+[]\OT1/cmr/m/n/12 Os fatores que podem influenciar a elasticidade-preco da ofe
+rta: aumento de concorr^encia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--828
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 830--832
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--862
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 866--896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--901
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.943 		\begin
+              {tikzpicture}[scale=0.3, axis/.style={very thick, ->, >=stealt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--975
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 976--978
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--1023
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1106 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[18]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1109 	\begin
+              {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1111 		\begin
+               {tikzpicture}[scale=0.02, axis/.style={very thick, ->, >=stea...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1188
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1291--1292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1293--1294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1313--1314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1323--1324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1340 		\begin
+               {tikzpicture}[scale=0.25, axis/.style={very thick, ->, >=stea...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1395--1396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1427
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1448--1450
+
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1462--1462
+ [][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1463--1465
+
+ []
+
+[23]
+Underfull \hbox (badness 1558) in paragraph at lines 1503--1503
+ [][][][]
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1521--1521
+ [][][][]
+ []
+
+[24]
+Underfull \hbox (badness 1558) in paragraph at lines 1541--1541
+ [][][][]
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1545 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1550
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1553 	\begin
+              {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[25]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1601 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1644 		\newpage
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[26]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1665 		
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1685 		
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1705 		\newpage
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[27]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1726 	\end
+            {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1728 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1732 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1772--1773
+
+ []
+
+[28]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1800 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1820 		\end
+             {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1827 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1831
+
+ []
+
+
+Overfull \hbox (7.8609pt too wide) in paragraph at lines 1833--1835
+[][]\OT1/cmr/m/n/12 E bem diferente essa comparac~ao entre a func~ao da utili
+dade e da demanda, inclinadas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1833--1835
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1841--1858
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1859 		
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1860--1877
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1878 	
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1879--1896
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1897 		\newpage
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1899--1916
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1917 	
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1918--1935
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1936 	
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1954
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1955 		\paragraph
+                   {}A questão 56 obedece a Lei dos Rendimentos Decrescente...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
+
+ []
+
+[31]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1958 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1960 	\\ \item
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (9.55806pt too wide) in paragraph at lines 1962--1963
+[][]\OT1/cmr/m/n/12 E a relac~ao tecnica entre a quantidade fsica de fatore
+s de produc~ao e a quantidade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1964--1965
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1967
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1968--1969
+
+ []
+
+
+Overfull \hbox (2.0872pt too wide) in paragraph at lines 1970--1971
+[]\OT1/cmr/m/n/12 Se a produc~ao aumenta pela mesma mudanca proporcional que 
+todos os insumos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1970--1971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1972--1973
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1981
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1982--1983
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1988
+
+ []
+
+
+! Package pgfkeys Error: I do not know the key '/tikz/blackl' and I am going to
+ ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2010 			\fill [blackl]
+                         (D) circle (1pt);\\
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1990--2012
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2035 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2059 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2061--2063
+
+ []
+
+[33]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2086 	\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2087 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2110 	\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2111 	
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
+
+ []
+
+[34] ("Lista 1 - Microeconomia.aux") ) 
+Here is how much of TeX's memory you used:
+ 15533 strings out of 483127
+ 300435 string characters out of 2956936
+ 544965 words of memory out of 3000000
+ 30611 multiletter control sequences out of 15000+200000
+ 540893 words of font info for 51 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 60i,14n,60p,840b,896s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/felipe/.miktex/texmfs/data/fonts/
+pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></home/felipe/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb></home/felipe/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></home/felipe/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></home/felipe/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></home/felipe/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></home/felipe/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></home/felipe/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr6.pfb></home/felipe/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></home/felipe/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></home/felipe/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></home/felipe/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb></home/felipe/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "Lista 1 - Microeconomia.pdf" (34 pages, 212737 bytes).
+PDF statistics:
+ 167 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
