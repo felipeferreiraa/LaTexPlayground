@@ -1,2 +1,3 @@
 # LaTexPlayground
-O proposito é simplesmente colocar arquivos em TeX para eternidade :)
+
+The purpose is simply to put files in TeX for eternity :)
